@@ -2,6 +2,12 @@
 
 ##Change log
 
+    * 2.1.7
+        Fix: Price mismatch with the order lines
+        Fix: Styling issue on the payment page
+        Fix: Capture and Refund with new Klarna implementations
+    * 2.1.6
+        Fix: Login issue in account configuration page
     * 2.1.5
         Re-branding from Valitor to Altapay
         API access token now supports 250 characters
