@@ -2,6 +2,8 @@
 
 ##Change log
 
+    * 2.1.8
+        Fix: Gift card issue on the checkout page
     * 2.1.7
         Fix: Price mismatch with the order lines
         Fix: Styling issue on the payment page
