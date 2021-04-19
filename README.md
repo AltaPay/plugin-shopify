@@ -2,6 +2,9 @@
 
 ##Change log
 
+    * 2.1.9
+        Fix Shopify app verification issue with new API changes
+        Fix minor styling issues on the credit card form
     * 2.1.8
         Fix: Gift card issue on the checkout page
     * 2.1.7
