@@ -3,8 +3,8 @@
 ##Change log
 
     * 2.1.9
-        Fix Shopify app verification issue with new API changes
-        Fix minor styling issues on the credit card form
+        Support host query parameter for OAuth
+        Fix: Alignment of credit card form fields
     * 2.1.8
         Fix: Gift card issue on the checkout page
     * 2.1.7
