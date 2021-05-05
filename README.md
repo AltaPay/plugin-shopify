@@ -2,6 +2,10 @@
 
 ##Change log
 
+    * 2.2.0
+        Added icons for Sofort, Swish, and Vipps terminal
+        Updated icon for Klarna
+        Updated the list for payment statuses
     * 2.1.9
         Support host query parameter for OAuth
         Fix: Alignment of credit card form fields
