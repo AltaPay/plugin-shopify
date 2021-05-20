@@ -30,3 +30,7 @@
         Multiple fixtures and improvements
     * 1.0.0
         First release of the plugin 
+
+## Installation
+
+    The whole installation and configuration process is described in our [integration manual](https://documentation.altapay.com/Content/Plugins/Shopify/1%20Shopify%20Overview.htm)
