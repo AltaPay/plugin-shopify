@@ -2,6 +2,8 @@
 
 ##Change log
 
+    * 2.2.1
+        Fail gracefully when the callback's result is unknown
     * 2.2.0
         Added icons for Sofort, Swish, and Vipps terminal
         Updated icon for Klarna
