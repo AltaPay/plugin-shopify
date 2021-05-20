@@ -33,4 +33,4 @@
 
 ## Installation
 
-The whole installation and configuration process is described in our [integration manual](https://documentation.altapay.com/Content/Plugins/Shopify/1%20Shopify%20Overview.htm)
+The whole installation and configuration process is described in our [integration manual](https://documentation.altapay.com/Content/Plugins/Shopify/1%20Shopify%20Overview.htm).
