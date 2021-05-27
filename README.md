@@ -1,7 +1,16 @@
 # AltaPay for ShopifyPlus
 
-##Change log
+## Change log
 
+    * 2.2.1
+        Fail gracefully when the callback's result is unknown
+    * 2.2.0
+        Added icons for Sofort, Swish, and Vipps terminal
+        Updated icon for Klarna
+        Updated the list for payment statuses
+    * 2.1.9
+        Support host query parameter for OAuth
+        Fix: Alignment of credit card form fields
     * 2.1.8
         Fix: Gift card issue on the checkout page
     * 2.1.7
@@ -21,3 +30,7 @@
         Multiple fixtures and improvements
     * 1.0.0
         First release of the plugin 
+
+## Installation
+
+The whole installation and configuration process is described in our [integration manual](https://documentation.altapay.com/Content/Plugins/Shopify/1%20Shopify%20Overview.htm).
