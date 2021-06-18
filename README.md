@@ -2,6 +2,8 @@
 
 ## Change log
 
+    * 2.2.2
+        Redesigned payment selection page
     * 2.2.1
         Fail gracefully when the callback's result is unknown
     * 2.2.0
