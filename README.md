@@ -2,6 +2,8 @@
 
 ## Change log
 
+    * 2.2.3
+        Support mobile rendering for payment selection page
     * 2.2.2
         Redesigned payment selection page
     * 2.2.1
