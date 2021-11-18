@@ -1,6 +1,8 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.2.4]
+- Add option to display credit card form by default on terminal selection page
 ## [2.2.3]
 - Support mobile rendering for payment selection page
 ## [2.2.2]
