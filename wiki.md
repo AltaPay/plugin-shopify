@@ -162,7 +162,7 @@ All of these will be provided by AltaPay.
 6. Enter the username and password AltaPay has given to you.
 7. If you are working in the Production account, specify the AltaPay Omni-Channel URL.
 
-![shopify_gateway_config	](/Docs/Configuration/shopify_gateway_config.png)
+![shopify_gateway_config](/Docs/configuration/shopify-gateway-config.png)
 
 8. Save the details.
 9. Next, you need to configure the payment methods (terminals). See Configuring the Payment Methods (terminals) in the Shopify app for more details.
@@ -186,14 +186,14 @@ To log in, you will need:
 3. Make sure that you are working in the correct tab.
 4. You will see a list of payment methods configured by AltaPay according to the agreement you have made with us.
 
-![shopify_config_pm_1](/Docs/Configuration/shopify_config_pm_1.png)
+![shopify_config_pm_1](/Docs/configuration/shopify_config_pm_1.png)
 
 The default names of the payment methods come from the title the payment method has been given by AltaPay.
 
 5. Click on a given terminal/payment method to change the configuration.
 6. The payment method details are displayed. Configure the details as required, using the notes and illustration for guidance.
 
-![shopify_config_pm_2](/Docs/Configuration/shopify_config_pm_2.png)
+![shopify_config_pm_2](/Docs/configuration/shopify_config_pm_2.png)
 
 >- Complete the details:
 
@@ -236,7 +236,7 @@ A customer telephone number is required when using Klarna.
 1. In Shopify, navigate to Settings > Checkout.
 2. Go to the <strong>Form Options</strong> section, and mark the <strong>Shipping address phone number</strong> in the checkout flow as “Required”.
 
-![shopify_klarna](/Docs/Configuration/shopify_klarna.png)
+![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
 # Styling 
 
