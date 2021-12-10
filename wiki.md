@@ -84,11 +84,11 @@ Go to the appropriate link. If you are working in the production environment, re
 <tbody>
   <tr>
     <td><strong>Test</strong></td>
-    <td>https://<shop_name>.myshopify.com/admin/authorize_gateway/1054445</td>
+    <td>https://&lt;shop_name&gt;.myshopify.com/admin/authorize_gateway/1054445</td>
   </tr>
   <tr>
     <td><strong>Production</strong></td>
-    <td>https://<shop_name>.myshopify.com/admin/authorize_gateway/1054447</td>
+    <td>https://&lt;shop_name&gt;.myshopify.com/admin/authorize_gateway/1054447</td>
   </tr>
 </table>
 </tbody>
@@ -101,11 +101,11 @@ Go to the appropriate link. If you are working in the production environment, re
 <tbody>
   <tr>
     <td><strong>Test</strong></td>
-    <td>https://shopifystaging.altapayplatform.com/api/shopify/apps/authentication?shopHostName=<shop_name>.myshopify.com</td>
+    <td>https://shopifystaging.altapayplatform.com/api/shopify/apps/authentication?shopHostName=&lt;shop_name&gt;.myshopify.com</td>
   </tr>
   <tr>
     <td><strong>Production</strong></td>
-    <td>https://shopify.altapayplatform.com/api/shopify/apps/authentication?shopHostName=<shop_name>.myshopify.com</td>
+    <td>https://shopify.altapayplatform.com/api/shopify/apps/authentication?shopHostName=&lt;shop_name&gt;.myshopify.com</td>
   </tr>
 </table>
 </tbody>
@@ -479,19 +479,21 @@ If you want to use a gift card terminal, you can enable the customer to query a 
 2. Click Actions > Edit code on the current theme.
 3. If you are using the test gateway, insert the following:
 
-< form action="https://shopifystaging.altapayplatform.com/api/shopify/public/giftcards">
-            < input type="hidden" name="environment" value="test">
-            < input type="hidden" name="shopName" value="<shop_name>">
-      Account identifier:< br>
-      < input type="text" name="accountIdentifier">
-      < br>
-      Gift card provider:< br>
-      < select name="provider" >
-          < option value="test">test< /option>
-    < /select>
-      < br>< br>
+```html
+  <form action="https://shopifystaging.altapayplatform.com/api/shopify/public/giftcards">
+            <input type="hidden" name="environment" value="test">
+            <input type="hidden" name="shopName" value="<shop_name>">
+      Account identifier:<br>
+      <input type="text" name="accountIdentifier">
+      <br>
+      Gift card provider:<br>
+      <select name="provider">
+          <option value="test">test</option>
+    </select>
+      <br><br>
       < input type="submit" value="Submit">
-< /form>
+</form>
+  ```
 
 >**Notes**
 
@@ -499,17 +501,19 @@ If you want to use a gift card terminal, you can enable the customer to query a 
 
 4. **If you are using the production gateway,** replace the test code with the following:
 
-< form action="https://shopify.altapaysecure.com/api/shopify/public/giftcards">
-            < input type="hidden" name="environment" value="prod">
-            < input type="hidden" name="shopName" value="<shop_name>">
-      Account identifier:< br>
-      < input type="text" name="accountIdentifier">
-      < br>
-      Gift card provider:< br>
-      < select name="provider" >
-          < option value="test">PPS< /option>
-          < option value="test">SVS< /option>
-    < /select>
-      < br>< br>
-      < input type="submit" value="Submit">
-< /form>
+```html
+  <form action="https://shopify.altapaysecure.com/api/shopify/public/giftcards">
+            <input type="hidden" name="environment" value="prod">
+            <input type="hidden" name="shopName" value="<shop_name>">
+      Account identifier:<br>
+      <input type="text" name="accountIdentifier">
+      <br>
+      Gift card provider:<br>
+      <select name="provider">
+          <option value="test">PPS</option>
+          <option value="test">SVS</option>
+    </select>
+      <br><br>
+      <input type="submit" value="Submit">
+</form> 
+ ```
