@@ -35,7 +35,7 @@ Installing this plug-in will enable the web shop to handle card transactions thr
 
 [Styling](#styling)
 
-[Verify Payment Details](#verify)
+[Viewing Payment Details](#viewing-payment-details)
 
 [Switching between production and test environments](#environments)
 
@@ -111,11 +111,11 @@ Go to the appropriate link. If you are working in the production environment, re
 </tbody>
 
 - You will be prompted for your AltaPay Omni-Channel username and password, and the URL if you are setting up a production account.
-3. Next, you need to configure the gateway. See Configuring the AltaPay Omni Gateway for Shopify for more details.
+3. Next, you need to configure the gateway. See [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify) for more details.
 
 # Configuration
 
-**Configuring the AltaPay Omni Gateway for Shopify**
+## Configuring the AltaPay Omni Gateway for Shopify
 
 When you first open the app from the administration page in Shopify, you need to configure the gateway account.
 
@@ -126,20 +126,20 @@ You will need:
 - The API password for your AltaPay Omni-Channel account. This will be provided by AltaPay.
 - Your Shopify shop name, which you define when you create your shop
 
-. Navigate to the Admin page, using the URL.
-2. Select the Settings button in the bottom left of the screen.
-3. Go to Payment Providers
-4. Scroll down to Alternative Payment Methods and do one of the following:
+1. Navigate to the **Admin** page, using the URL.
+2. Select the **Settings** button in the bottom left of the screen.
+3. Go to **Payment Providers**
+4. Scroll down to **Alternative Payment Methods** and do one of the following:
 - If you see AltaPay Omni, click on the Edit button beside it.
-- If AltaPay Omni is not displayed, select the Choose alternative payment buttont, and select AltaPay Omni from the list
+- If AltaPay Omni is not displayed, select the **Choose alternative payment** buttont, and select AltaPay Omni from the list
 5. The account information is displayed.
 6. Key in the shop name and password, and then select the payment methods that you support.
 7. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
-8. Click Activate when you have completed the details.
-9. Next, you need to configure the app. See Configuring the AltaPay Omni App for Shopify for more details.
+8. Click **Activate** when you have completed the details.
+9. Next, you need to configure the app. See [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
 
-**Configuring the AltaPay Omni App for Shopify**
+## Configuring the AltaPay Omni App for Shopify
 
 Having configured the AltaPay Omni gateway, you now need to configure the app.
 
@@ -165,9 +165,9 @@ All of these will be provided by AltaPay.
 ![shopify_gateway_config](/Docs/configuration/shopify-gateway-config.png)
 
 8. Save the details.
-9. Next, you need to configure the payment methods (terminals). See Configuring the Payment Methods (terminals) in the Shopify app for more details.
+9. Next, you need to configure the payment methods (terminals). See [Configuring the Payment Method terminals in the Shopify App](#configuring-the-payment-method-terminals-in-the-shopify-app) for more details.
 
-**Configuring the Payment Methods (terminals) in the Shopify app**
+## Configuring the Payment Method terminals in the Shopify app
 
 **Prerequisites**
 
@@ -336,7 +336,8 @@ If the customer has not placed an order in your shop before, or wants to use a c
 
 4. In the Credit by credit card details section, select the relevant payment method, enter a description and the amount to credit.
 5. Click Credit customer.
-6. A new window with a payment form will be opened, and you need to fill out the payment details supplied by the customer. If the customer does not want to give their credit details over the phone, you can verify the card using a link. See Verifying a Card via Link for more details.
+6. A new window with a payment form will be opened, and you need to fill out the payment details supplied by the customer. If the customer does not want to give their credit details over the phone, you can verify the card using a link. See [Verifying a Card via Link](#verifying-a-card-via-link) for more details.
+  
 
 **Verifying the Order against Stock**
 
@@ -350,7 +351,7 @@ In the Settings, you can configure whether you want a given order to be verified
 
 There are two tabs; Production and Test. Make sure you are working in the correct one.
 
-**Verifying a Card via Link**
+## Verifying a Card via Link
 If a customer does not want to give out their payment details by phone, you can generate a link to AltaPay’s secure PCI compliant payment form, and send it to them via email.
 
 The customer can use the link to the payment form to enter their payment details securely, and you (the merchant) can then use a unique credit card token for the card, e.g. for crediting the customer.
@@ -379,7 +380,7 @@ If your agreement with AltaPay includes the gift card payment method, you can qu
 
 >**Prerequisites**
 
->You must have at least one terminal with gift card enabled, as explained in Configuring the Payment Methods (terminals) in the Shopify app.
+>You must have at least one terminal with gift card enabled, as explained in [Configuring the Payment Method terminals in the Shopify App](#configuring-the-payment-method-terminals-in-the-shopify-app).
 
 The query can either be made by the account identifier (gift card number), or by gift card token.
 
@@ -414,9 +415,9 @@ To query by gift card token, select the relevant payment method in the **Termina
 
 6. Click on **Lookup amount** to display the remaining balance.
 
-# Verify
 
-**Verify Payment Details**
+
+# Viewing Payment Details
 
 You can view details on payments in the Shopify app, including payment method, fraud information, payment options, and, if relevant, gift card details.
 
@@ -428,8 +429,8 @@ You can view details on payments in the Shopify app, including payment method, f
 You can change the information that you see by clicking on **Edit** and updating the details.
 6. For more detailed information, use the transaction ID to search for the transaction in the Merchant Information Interface.
 7.If your agreement with AltaPay includes a gift card payment method, you can enable customers to query the remaining amount of their gift card. In order to do this, you must:
--	Enable the gift card option on the given terminal - see Configuring the payment methods (terminals) for more information.
--	Insert a piece of code in your Shopify theme code. Which code to insert depends on which theme you are using, but an example of the code can be seen in Editing Shopify Theme Code.
+-	Enable the gift card option on the given terminal - see [Configuring the payment methods (terminals)](https://docs.google.com/document/d/1E3Gbdpp2LVoT2Bvl8fEnhEvj-illN0msvizJpNjs27U/edit#heading=h.t53ej0y6yaf7?ts=5dc125cb) for more information.
+-	Insert a piece of code in your Shopify theme code. Which code to insert depends on which theme you are using, but an example of the code can be seen in [Editing Shopify Theme Code](#editing-shopify-theme-code)
 
 # Environments
 
@@ -446,7 +447,7 @@ If you want to test the gateway in the test environment and switch to the produc
 
 **Tips**
 
-Ensure the relevant account is defined in the app, as described in Configuring the AltaPay Omni Gateway for Shopify.
+Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify).
 
 # Ordering
 
@@ -461,7 +462,7 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 
 **Tips**
 
-Ensure the relevant account is defined in the app, as described in Configuring the AltaPay Omni Gateway for Shopify.
+Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify).
 
 1. Place an order, selecting the AltaPay Omni-Channel gateway in the checkout.
 2. Select the payment method on the following page and enter some dummy payment details.
@@ -497,7 +498,7 @@ If you want to use a gift card terminal, you can enable the customer to query a 
 
 >**Notes**
 
-> <shop_name> should be replaced by the shop name, as explained in Installing the AltaPay Omni gateway in your Shopify shop.
+> <shop_name> should be replaced by the shop name, as explained in the [Installation](#installation) of The Gateway and App for Shopify.
 
 4. **If you are using the production gateway,** replace the test code with the following:
 
