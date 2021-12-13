@@ -272,7 +272,7 @@ All of these details will be emailed to you by AltaPay as part of the onboarding
 >- In the Select <b>Payment Method</b> page:
 >- The mandatory payment method placeholder is<br>
 < div class="sm:w-1/2 sm:mr-2 md:mr-4 order-2 sm:order-1" id="PaymentMethodsPlaceholder"></div>
->>- The order details placeholder is<br>
+>- The order details placeholder is<br>
 < div class="sm:w-1/2 sm:ml-2 md:ml-4 sm:mb-0 order-1 sm:order-2" id="OrderDetailsPlaceholder">
 
 In the <b>Payment Form</b> page:
@@ -284,6 +284,36 @@ In the <b>Payment Form</b> page:
 >You should adhere to the rules and advice specified in the online help in the testgateway - https://testgateway.altapaysecure.com/merchant/help/FrontendIntegration#Payment_page__form_callback
 
 8. Click on <b>Save</b> to save the details, or <b>Reset HTML to Default</b> to restore the default settings.
+
+## Enable Credit Card Form by Defaul on Checkout
+  
+**Display the credit card inputs by default on the terminal selection page**
+  
+To display the credit card inputs by default on the terminal selection page follow the below steps.
+• Login to the Shopify admin section.
+  
+• Navigate to the **Apps** section.
+  
+• Click on the **AltaPay Gateway** app.
+  
+• Click on the **Settings** tab.
+  
+• Scroll to **Show credit card form by default** section and click on **Enable** button and **Save** the
+settings.
+
+![shopify_klarna](/Docs/enable_cc-by_default/enable_cc_by_default.jpg)
+  
+> Note: Existing merchants need to perform the below step to load
+> the new elements on the payment page.
+> It's recommended to take a backup of existing HTML on the **Settings** page.
+  
+• Scroll bottom of the **Settings** page and click on **Reset HTML to default** and then click **Save**.
+  
+![shopify_klarna](/Docs/enable_cc-by_default/reset_html.jpg)
+  
+**Frontend View**
+  
+![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
 
 # Using the AltaPay Omni app for Shopify
 
@@ -414,8 +444,6 @@ To query by gift card token, select the relevant payment method in the **Termina
 ![when_the_email_address_has_7](/Docs/use_plugin/when_the_email_address_has_7.png)
 
 6. Click on **Lookup amount** to display the remaining balance.
-
-
 
 # Viewing Payment Details
 
