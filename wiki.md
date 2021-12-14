@@ -181,7 +181,7 @@ To log in, you will need:
 2. You will see that there are two tabs on this page:
 
 >- Test for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
->- Production for configuring the production account, i.e. the account which will enable actual financial transactions. If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.
+>- Production for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
 
 3. Make sure that you are working in the correct tab.
 4. You will see a list of payment methods configured by AltaPay according to the agreement you have made with us.
@@ -215,15 +215,15 @@ The default names of the payment methods come from the title the payment method 
 </table>
 </tbody>
 
-- If necessary, enable the payment method as a gift card payment method.
-- Specify whether order details will be shown in the payment form.
+- If necessary, enable the payment method as a **gift card payment method**.
+- Specify whether **order details** will be shown in the payment form.
 
 >**Tips**
 
 >If a high amount of orders are placed in a shop (more than 2 orders per second), it might require additional time (up to 5 seconds) to fetch the order details from Shopify due to their API call limit. If you do not want this delay, disable this option. If the retrieval time exceeds 5 seconds, the order details will not be shown or sent to the gateway.
 
-- Select whether the payment method is active - this decides whether the customer can select this payment method to complete the transaction.
-- Choose from the predefined icons to display to the customer for a given payment method. You can select a single icon from the left hand column. If the payment method is Credit Card, you can select multiple icons. These will be shown in the Select Payment Method page, and the Payment Form page.
+- Select whether the **payment method is active** - this decides whether the customer can select this payment method to complete the transaction.
+- Choose from the predefined **icons** to display to the customer for a given payment method. You can select a single icon from the left hand column. If the payment method is Credit Card, you can select multiple icons. These will be shown in the Select Payment Method page, and the Payment Form page.
 
 7. Click on <strong>Save </strong>to save the details.
 
@@ -326,8 +326,8 @@ To refund orders, you can just go to the given order and click “Refund”. How
 If the credit should go on a card that the customer has used on an order, but the customer does not want to give out their payment details, you can use a unique credit card token instead. All you need is the customer email address which was used on the order.
 
 1. Navigate to the Admin page, using the URL.
-2. Select Apps in the left hand pane, and then AltaPay Omni Gateway.
-3. Then go to the Credit Customer screen.
+2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
+3. Then go to the **Credit Customer** screen.
 
 > **Notes.**
 
@@ -365,7 +365,7 @@ If the customer has not placed an order in your shop before, or wants to use a c
 >There are two tabs; Production and Test. Make sure you are working in the correct one.
 
 4. In the Credit by credit card details section, select the relevant payment method, enter a description and the amount to credit.
-5. Click Credit customer.
+5. Click **Credit customer**.
 6. A new window with a payment form will be opened, and you need to fill out the payment details supplied by the customer. If the customer does not want to give their credit details over the phone, you can verify the card using a link. See [Verifying a Card via Link](#verifying-a-card-via-link) for more details.
   
 
@@ -373,9 +373,9 @@ If the customer has not placed an order in your shop before, or wants to use a c
 
 In the Settings, you can configure whether you want a given order to be verified in relation to product stock, as well as discount and shipping validity during the authorization flow before the payment is taken.
 
-1. Navigate to the Admin page, using the URL.
-2. Select Apps in the left hand pane, and then AltaPay Omni Gateway.
-3. In the Settings section, choose whether you want to enable/disable the verification.
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
+3. In the **Settings** section, choose whether you want to enable/disable the verification.
 
 ![shopify_settings_verify_order](/Docs/use_plugin/shopify_settings_verify_order.png)
 
