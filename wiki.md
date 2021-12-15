@@ -39,7 +39,7 @@ Installing this plug-in will enable the web shop to handle card transactions thr
 
 [Switching between production and test environments](#environments)
 
-[Ordering](#ordering)
+[Making a test order](#making-a-test-order)
 
 [Editing Shopify Theme Code](#editing-shopify-theme-code)
 
@@ -477,7 +477,7 @@ If you want to test the gateway in the test environment and switch to the produc
 
 Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify).
 
-# Ordering
+# Making a test order
 
 In order to place an order and pay with the AltaPay Omni-Channel test gateway, you should first ensure the test environment is properly set up:
 
