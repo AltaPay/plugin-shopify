@@ -75,7 +75,7 @@ The Shopify plugin consists of the following, and you need to install both:
 >  The username and password for your AltaPay Omni-Channel account. These will be provided by AltaPay.
 > - If you have a production account, you will need a URL, e.g. https://testgateway.altapaysecure.com. This will be provided by AltaPay.
 > - The <shop_name> in the URL for your Shopify shop's admin page
-> (It is typically in the format https://<shop_name>.myshopify.com/admin)
+> (It is typically in the format **https://<shop_name>.myshopify.com/admin**)
 
 1. First, you need to install the AltaPay Omni gateway for Shopify.
 Go to the appropriate link. If you are working in the production environment, replace <shop_name> with the one identified in your admin page:
@@ -175,7 +175,7 @@ Having configured the AltaPay Omni gateway, you now need to configure the app.
 > 
 > - The username and password for your AltaPay Omni-Channel account. These are provided by AltaPay.
 > - The URL for your Shopify shop's admin page.
-(It is typically in the format https://<shop_name>.myshopify.com/admin)
+(It is typically in the format **https://<shop_name>.myshopify.com/admin**)
 
 1. Navigate to the Admin page, using the URL.
 2. You will see that there are two tabs on this page:
@@ -256,16 +256,16 @@ You can style the Select Payment Method and Payment Form pages within the Shopif
 > 
 > **You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.**
 
-1. Navigate to the Admin page, using the URL.
-2. Select Apps in the left hand pane, and then AltaPay Omni Gateway.
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Apps** in the left hand pane, and then AltaPay Omni Gateway.
 3. You will see that there are two tabs on this page:
 
 >- <b>Test</b> for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
 >- <b>Production</b> for configuring the production account, i.e. the account which will enable actual financial transactions
 
 4. Make sure that you are working in the correct tab.
-5. Select Settings at the top of the window.
-6. Scroll down to the Payment pages styling section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
+5. Select **Settings** at the top of the window.
+6. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
 7. Make your changes, noting the following:
 
 >- <b>You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.</b>
