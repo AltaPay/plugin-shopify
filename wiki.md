@@ -19,7 +19,7 @@ We will talk you through each of the steps in detail in the following sections, 
 
 **Versions**
 
-New versions of the AltaPay Omni-Channel plugin for Shopify will be released as new features are added and bugs are fixed.#
+New versions of the AltaPay Omni-Channel plugin for Shopify will be released as new features are added and bugs are fixed.
 
 # PrestaShop Payment plugin installation guide
 
