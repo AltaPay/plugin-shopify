@@ -209,7 +209,7 @@ The default names of the payment methods come from the title the payment method 
   </tr>
   <tr>
     <td><strong>Display priority</strong></td>
-    <td>Enter a value to indicate the order in which you want payment methods displayed on the page where the customer selects their preferred payment method. 1 is the highest priority. If you give the same display priority to more than one payment method, they will be shown in alphabetical order.
+    <td>Enter a value to indicate the order in which you want payment methods to be displayed on the page, where the customer selects their preferred payment method. 1 is the highest priority. If you give the same display priority to more than one payment methods, they will be shown in alphabetical order.
 </td>
   </tr>
 </table>
@@ -223,7 +223,7 @@ The default names of the payment methods come from the title the payment method 
 >If a high amount of orders are placed in a shop (more than 2 orders per second), it might require additional time (up to 5 seconds) to fetch the order details from Shopify due to their API call limit. If you do not want this delay, disable this option. If the retrieval time exceeds 5 seconds, the order details will not be shown or sent to the gateway.
 
 - Select whether the **payment method is active** - this decides whether the customer can select this payment method to complete the transaction.
-- Choose from the predefined **icons** to display to the customer for a given payment method. You can select a single icon from the left hand column. If the payment method is Credit Card, you can select multiple icons. These will be shown in the Select Payment Method page, and the Payment Form page.
+- Choose from the predefined **icons** to display to the customer for a given payment method. You can select a single icon from the left hand column. If the payment method is **Credit Card**, you can select multiple icons. These will be shown in the **Select Payment Method** page, and the **Payment Form** page.
 
 7. Click on <strong>Save </strong>to save the details.
 
@@ -234,7 +234,7 @@ The default names of the payment methods come from the title the payment method 
 A customer telephone number is required when using Klarna.
 
 1. In Shopify, navigate to Settings > Checkout.
-2. Go to the <strong>Form Options</strong> section, and mark the <strong>Shipping address phone number</strong> in the checkout flow as “Required”.
+2. Go to the <strong>Form Options</strong> section, and mark the <strong>Shipping address phone number</strong> in the checkout flow as **“Required”**.
 
 ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
@@ -242,7 +242,7 @@ A customer telephone number is required when using Klarna.
 
 **Styling the Payment Pages in the AltaPay Omni app for Shopify**
 
-You can style the Select Payment Method and Payment Form pages within the Shopify plugin.
+You can style the **Select Payment Method** and **Payment Form** pages within the **Shopify plugin**.
 
 > **Prerequisites**
 > 
@@ -260,8 +260,8 @@ You can style the Select Payment Method and Payment Form pages within the Shopif
 2. Select **Apps** in the left hand pane, and then AltaPay Omni Gateway.
 3. You will see that there are two tabs on this page:
 
->- <b>Test</b> for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
->- <b>Production</b> for configuring the production account, i.e. the account which will enable actual financial transactions
+>- <b>Test</b>, for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
+>- <b>Production</b>, for configuring the production account, i.e. the account which will enable actual financial transactions
 
 4. Make sure that you are working in the correct tab.
 5. Select **Settings** at the top of the window.
@@ -270,35 +270,40 @@ You can style the Select Payment Method and Payment Form pages within the Shopif
 
 >- <b>You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.</b>
 >- In the Select <b>Payment Method</b> page:
->- The mandatory payment method placeholder is<br>
-< div class="sm:w-1/2 sm:mr-2 md:mr-4 order-2 sm:order-1" id="PaymentMethodsPlaceholder"></div>
+>- The mandatory payment method placeholder is
+```html
+    <div class="sm:w-1/2 sm:mr-2 md:mr-4 order-2 sm:order-1" id="PaymentMethodsPlaceholder"></div>
+```
 >- The order details placeholder is<br>
-< div class="sm:w-1/2 sm:ml-2 md:ml-4 sm:mb-0 order-1 sm:order-2" id="OrderDetailsPlaceholder">
-
+```html
+    <div class="sm:w-1/2 sm:ml-2 md:ml-4 sm:mb-0 order-1 sm:order-2" id="OrderDetailsPlaceholder">
+```
 In the <b>Payment Form</b> page:
 
 - The credit cards placeholder is<br>
-< div class="px-4 md:px-10 text-center mb-8" id="CreditCardsPlaceholder"><br>
+```html
+    <div class="px-4 md:px-10 text-center mb-8" id="CreditCardsPlaceholder">
+ ```
 - The dynamic cancel payment url will be replaced on a <a> tag with CancelPaymentLinkPlaceholder
 - The cancel payment button <b>(CancelPaymentButtonPlaceholder)</b> will be removed for credit customer and verify card transactions
 >You should adhere to the rules and advice specified in the online help in the testgateway - https://testgateway.altapaysecure.com/merchant/help/FrontendIntegration#Payment_page__form_callback
 
 8. Click on <b>Save</b> to save the details, or <b>Reset HTML to Default</b> to restore the default settings.
 
-## Enable Credit Card Form by Defaul on Checkout
+## Enable Credit Card Form by Default on Checkout
   
 **Display the credit card inputs by default on the terminal selection page**
   
 To display the credit card inputs by default on the terminal selection page follow the below steps.
-• Login to the Shopify admin section.
+Login to the Shopify admin section.
   
-• Navigate to the **Apps** section.
+- Navigate to the **Apps** section.
   
-• Click on the **AltaPay Gateway** app.
+- Click on the **AltaPay Gateway** app.
   
-• Click on the **Settings** tab.
+- Click on the **Settings** tab.
   
-• Scroll to **Show credit card form by default** section and click on **Enable** button and **Save** the
+- Scroll to **Show credit card form by default** section and click on **Enable** button and **Save** the
 settings.
 
 ![shopify_klarna](/Docs/enable_cc-by_default/enable_cc_by_default.jpg)
@@ -307,7 +312,7 @@ settings.
 > the new elements on the payment page.
 > It's recommended to take a backup of existing HTML on the **Settings** page.
   
-• Scroll bottom of the **Settings** page and click on **Reset HTML to default** and then click **Save**.
+- Scroll bottom of the **Settings** page and click on **Reset HTML to default** and then click **Save**.
   
 ![shopify_klarna](/Docs/enable_cc-by_default/reset_html.jpg)
   
@@ -331,7 +336,7 @@ If the credit should go on a card that the customer has used on an order, but th
 
 > **Notes.**
 >  
-> There are two tabs; Production and Test. Make sure you are working in the correct one.
+> There are two tabs; **Production** and **Test**. Make sure you are working in the correct one.
 
 ![shopify_credit](/Docs/use_plugin/shopify_credit.png)
 
@@ -379,7 +384,8 @@ In the Settings, you can configure whether you want a given order to be verified
 
 ![shopify_settings_verify_order](/Docs/use_plugin/shopify_settings_verify_order.png)
 
-There are two tabs; Production and Test. Make sure you are working in the correct one.
+> Note:
+_There are two tabs; **Production** and **Test**. Make sure you are working in the correct one._
 
 ## Verifying a Card via Link
 If a customer does not want to give out their payment details by phone, you can generate a link to AltaPay’s secure PCI compliant payment form, and send it to them via email.
@@ -391,8 +397,8 @@ The customer can use the link to the payment form to enter their payment details
 3. Then select the **Miscellaneous** button at the top of the window.
 4. You will see two tabs. Ensure you are working in the correct one:
 
-- <b>Test</b> for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
-- <b>Production</b> for configuring the production account, i.e. the account which will enable actual financial transactions. <b>If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.</b>
+- <b>Test</b>, for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
+- <b>Production</b>, for configuring the production account, i.e. the account which will enable actual financial transactions. <b>If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.</b>
 
 5. Navigate to the <b>Verify card</b> page.
 
@@ -420,8 +426,8 @@ The query can either be made by the account identifier (gift card number), or by
 2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
 3. Then select the **Miscellaneous** button at the top of the window.
 4. You will see two tabs. Ensure you are working in the correct one:
-- <b>Test</b> for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
-- <b>Production</b> for configuring the production account, i.e. the account which will enable actual financial transactions. If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.
+- <b>Test</b>, for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
+- <b>Production</b>, for configuring the production account, i.e. the account which will enable actual financial transactions. If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.
 5. Navigate to the Query by id page.
 6. Complete the details, specifying the relevant payment method, the card number of the gift card, and the gift card provider.
 
@@ -436,8 +442,8 @@ To query by gift card token, select the relevant payment method in the **Termina
 1. Navigate to the Admin page, using the URL.
 2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
 3. Then select the **Miscellaneous** button at the top of the window. You will see two tabs; ensure that you are working in the correct one:
-- **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
-- **Production** for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
+- **Test**, for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
+- **Production**, for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
 4. Navigate to the **Query by id** page.
 5. Complete the details, specifying the relevant payment method, and the gift card token.
 
@@ -450,7 +456,7 @@ To query by gift card token, select the relevant payment method in the **Termina
 You can view details on payments in the Shopify app, including payment method, fraud information, payment options, and, if relevant, gift card details.
 
 1. Navigate to the **Admin** page, using the URL.
-2. Select Orders in the left hand pane.
+2. Select **Orders** in the left hand pane.
 3. Select the order you want to view.
 4. In the **Additional Details** pane, on the right hand side, you will see the AltaPay Omni-Channel transaction ID, and an overview of the order.
 5. Here, you can see which payment method was used for a given payment in the order timeline, and high level fraud information. You can also see whether an option is supported for a given payment. (Some of the payment methods provided by AltaPay may not support all payment options such as payment release, refund or multiple refunds.)
