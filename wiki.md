@@ -67,15 +67,15 @@ The Shopify plugin consists of the following, and you need to install both:
 
 - The AltaPay Omni gateway for Shopify
 - The AltaPay Omni app for Shopify
-
-**Prerequisites**
-
-You will need:
-
-- The username and password for your AltaPay Omni-Channel account. These will be provided by AltaPay.
-- If you have a production account, you will need a URL, e.g. https://testgateway.altapaysecure.com. This will be provided by AltaPay.
-- The <shop_name> in the URL for your Shopify shop's admin page
-(It is typically in the format https://<shop_name>.myshopify.com/admin)
+    
+> **Prerequisites**
+>
+> You will need:
+> 
+>  The username and password for your AltaPay Omni-Channel account. These will be provided by AltaPay.
+> - If you have a production account, you will need a URL, e.g. https://testgateway.altapaysecure.com. This will be provided by AltaPay.
+> - The <shop_name> in the URL for your Shopify shop's admin page
+> (It is typically in the format https://<shop_name>.myshopify.com/admin)
 
 1. First, you need to install the AltaPay Omni gateway for Shopify.
 Go to the appropriate link. If you are working in the production environment, replace <shop_name> with the one identified in your admin page:
