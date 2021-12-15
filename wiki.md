@@ -201,7 +201,7 @@ The default names of the payment methods come from the title the payment method 
 <tbody>
   <tr>
     <td><strong>Payment method name as displayed to customer</strong></td>
-    <td>Key in the name you want shown on the screen</td>
+    <td>Key in the name you want show on the screen</td>
   </tr>
   <tr>
     <td><strong>Secret</strong></td>
