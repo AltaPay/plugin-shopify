@@ -151,8 +151,8 @@ Having configured the AltaPay Omni gateway, you now need to configure the app.
 > 
 > All of these will be provided by AltaPay.
 
-1. Navigate to the Admin page, using the URL.
-2. Select Apps and then the gateway.
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Apps** and then the gateway.
 3. The configuration window is displayed.
 4. You will see that there are two tabs on this page, even if you do not have a production account:
 - **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
@@ -325,7 +325,7 @@ To refund orders, you can just go to the given order and click “Refund”. How
 
 If the credit should go on a card that the customer has used on an order, but the customer does not want to give out their payment details, you can use a unique credit card token instead. All you need is the customer email address which was used on the order.
 
-1. Navigate to the Admin page, using the URL.
+1. Navigate to the **Admin** page, using the URL.
 2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
 3. Then go to the **Credit Customer** screen.
 
@@ -354,7 +354,7 @@ Making the credit via AltaPay’s payment form means that you as a merchant do n
 
 If the customer has not placed an order in your shop before, or wants to use a card he/she has not used in your store before, you should credit by credit card details.
 
-1. Navigate to the Admin page, using the URL.
+1. Navigate to the **Admin** page, using the URL.
 2. Select <b>Apps</b> in the left hand pane, and then <b>AltaPay Omni Gateway.</b>
 3. Then go to the <b>Credit Customer</b> screen.
 
@@ -386,9 +386,9 @@ If a customer does not want to give out their payment details by phone, you can 
 
 The customer can use the link to the payment form to enter their payment details securely, and you (the merchant) can then use a unique credit card token for the card, e.g. for crediting the customer.
 
-1. Navigate to the Admin page, using the URL.
-2. Select Apps in the left hand pane, and then AltaPay Omni Gateway.
-3. Then select the Miscellaneous button at the top of the window.
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
+3. Then select the **Miscellaneous** button at the top of the window.
 4. You will see two tabs. Ensure you are working in the correct one:
 
 - <b>Test</b> for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
@@ -399,7 +399,7 @@ The customer can use the link to the payment form to enter their payment details
 ![shopify_verify_card](/Docs/use_plugin/shopify_verify_card.png)
 
 6. Specify the customer email, and the terminal/payment method.
-7. Click on Send verify card link.
+7. Click on Send **verify card link**.
 8. The customer will receive an email from the AltaPay payment gateway, which will contain a link to the payment form.
 9. When the customer completes and returns the details, a token is generated.
 10. When you (the merchant) are told by the customer that the details have been submitted, you can use the token in place of the card details to complete transactions.
@@ -416,9 +416,9 @@ The query can either be made by the account identifier (gift card number), or by
 
 **Query by account identifier (number)**
 
-1. Navigate to the Admin page, using the URL.
-2. Select Apps in the left hand pane, and then AltaPay Omni Gateway.
-3. Then select the Miscellaneous button at the top of the window.
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Apps** in the left hand pane, and then **AltaPay Omni Gateway**.
+3. Then select the **Miscellaneous** button at the top of the window.
 4. You will see two tabs. Ensure you are working in the correct one:
 - <b>Test</b> for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
 - <b>Production</b> for configuring the production account, i.e. the account which will enable actual financial transactions. If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.
@@ -449,10 +449,10 @@ To query by gift card token, select the relevant payment method in the **Termina
 
 You can view details on payments in the Shopify app, including payment method, fraud information, payment options, and, if relevant, gift card details.
 
-1. Navigate to the Admin page, using the URL.
+1. Navigate to the **Admin** page, using the URL.
 2. Select Orders in the left hand pane.
 3. Select the order you want to view.
-4. In the Additional Details pane, on the right hand side, you will see the AltaPay Omni-Channel transaction ID, and an overview of the order.
+4. In the **Additional Details** pane, on the right hand side, you will see the AltaPay Omni-Channel transaction ID, and an overview of the order.
 5. Here, you can see which payment method was used for a given payment in the order timeline, and high level fraud information. You can also see whether an option is supported for a given payment. (Some of the payment methods provided by AltaPay may not support all payment options such as payment release, refund or multiple refunds.)
 You can change the information that you see by clicking on **Edit** and updating the details.
 6. For more detailed information, use the transaction ID to search for the transaction in the Merchant Information Interface.
