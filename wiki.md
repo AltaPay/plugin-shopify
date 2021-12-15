@@ -468,8 +468,8 @@ If you want to test the gateway in the test environment and switch to the produc
 
 -	Change the account details on the gateway, and set the test flag accordingly:
 >1.	Go to Settings > Payment providers.
->2. Scroll down to Alternative payment methods.
->3. Click Edit where it says “AltaPay Omni is active”.
+>2. Scroll down to **Alternative payment methods**.
+>3. Click **Edit** where it says “AltaPay Omni is active”.
 
 ![shopify_altve_pm](/Docs/switching_bw_test_and_producrtion_env/shopify_altve_pm.jpg)
 
@@ -483,8 +483,8 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 
 - Change the account details on the gateway, and set the test flag accordingly:
 >1. Go to Settings > Payment providers.
->2. Scroll down to Alternative payment methods.
->3. Click Edit where it says “AltaPay Omni is active”.
+>2. Scroll down to **Alternative payment methods**.
+>3. Click **Edit** where it says “AltaPay Omni is active”.
 
 ![shopify_altve_pm](/Docs/making_a_test_order/shopify_altve_pm.jpg)
 
@@ -506,7 +506,7 @@ If you want to use a gift card terminal, you can enable the customer to query a 
 
 1. Navigate to Online Store > Themes
 2. Click Actions > Edit code on the current theme.
-3. If you are using the test gateway, insert the following:
+3. **If you are using the test gateway**, insert the following:
 
 ```html
   <form action="https://shopifystaging.altapayplatform.com/api/shopify/public/giftcards">
