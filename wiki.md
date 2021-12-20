@@ -475,7 +475,7 @@ If you want to test the gateway in the test environment and switch to the produc
 -	Change the account details on the gateway, and set the test flag accordingly:
 >1.	Go to Settings > Payment providers.
 >2. Scroll down to **Alternative payment methods**.
->3. Click **Edit** where it says “AltaPay Omni is active”.
+>3. Click **Manage** where it says “AltaPay Omni is active”.
 
 ![shopify_altve_pm](/Docs/switching_bw_test_and_producrtion_env/shopify_altve_pm.jpg)
 
@@ -490,7 +490,7 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 - Change the account details on the gateway, and set the test flag accordingly:
 >1. Go to Settings > Payment providers.
 >2. Scroll down to **Alternative payment methods**.
->3. Click **Edit** where it says “AltaPay Omni is active”.
+>3. Click **Manage** where it says “AltaPay Omni is active”.
 
 ![shopify_altve_pm](/Docs/making_a_test_order/shopify_altve_pm.jpg)
 
