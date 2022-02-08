@@ -27,35 +27,37 @@ Installing this plug-in will enable the web shop to handle card transactions thr
 
 **Table of Contents**
 
-1. [Prerequisites](#prerequisites)
+ - [Prerequisites](#prerequisites)
 
-2. [Installation](#installation)
+ - [Installation](#installation)
 
-3. [Configuration](#configuration) 
+ - [Configuration](#configuration) 
   
-    1. [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify)
+    * [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify)
+      
+    * [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify)
+
+    * [Configuring the Payment Method terminals in the Shopify app](#configuring-the-payment-method-terminals-in-the-shopify-app)
     
-    2. [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify)
-
-    3. [Configuring the Payment Method terminals in the Shopify app](#configuring-the-payment-method-terminals-in-the-shopify-app)
-    
 
 
-4. [Styling](#styling)
+ - [Styling](#styling)
 
-    1. [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
+    * [Styling the Payment Pages in the AltaPay Omni app for Shopify](#styling-the-payment-pages-in-the-altaPay-omni-app-for-shopify)
 
-    2. [Using the AltaPay Omni app for Shopify](#using-the-altapay-omni-app-for-shopify) 
+    * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
 
-    3. [Verifying a Card via Link](#verifying-a-card-via-link)
+ - [Using the AltaPay Omni app for Shopify](#using-the-altapay-omni-app-for-shopify) 
 
-5. [Viewing Payment Details](#viewing-payment-details)
+ - [Verifying a Card via Link](#verifying-a-card-via-link)
 
-6. [Switching between production and test environments](#environments)
+ - [Viewing Payment Details](#viewing-payment-details)
 
-7. [Making a test order](#making-a-test-order)
+ - [Switching between production and test environments](#environments)
 
-8. [Editing Shopify Theme Code](#editing-shopify-theme-code)
+ - [Making a test order](#making-a-test-order)
+
+ - [Editing Shopify Theme Code](#editing-shopify-theme-code)
 
 # Prerequisites
 
@@ -161,7 +163,7 @@ When you first open the app from the administration page in Shopify, you need to
 
 ![shopify_selected_all_icons](/Docs/configuration/shopify_selected_all_icons.png)
 
-**Note:** Only 4 payment icons will be displaying on checkout page even all the available icons are selected.
+**Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
 
 ![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout.png)
 
