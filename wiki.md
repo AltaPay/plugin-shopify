@@ -159,6 +159,11 @@ When you first open the app from the administration page in Shopify, you need to
 
 8. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
+
+If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
+
+![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.png)
+
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
 
