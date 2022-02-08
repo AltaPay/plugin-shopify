@@ -145,16 +145,16 @@ When you first open the app from the administration page in Shopify, you need to
 1. Navigate to the **Admin** page, using the URL.
 2. Select the **Settings** button in the bottom left of the screen.
 
-![shopify_settings_menu](/Docs/configuration/shopify_settings_menu.png)
+![shopify_settings_menu](/Docs/configuration/shopify_settings_menu_updated.png)
 
 3. Go to **Payments**
 
-![shopify_payments_menu](/Docs/configuration/shopify_payments_menu.png)
+![shopify_payments_menu](/Docs/configuration/shopify_payments_menu_updated.png)
 
 4. Scroll down to **Alternative Payment Methods** and do one of the following:
 - If you see AltaPay Omni, click on the **Manage** button beside it. 
 
-![shopify_manage_AltaPay_Omni](/Docs/configuration/shopify_manage_AltaPay_Omni.png)
+![shopify_manage_AltaPay_Omni](/Docs/configuration/shopify_manage_AltaPay_Omni_updated.png)
 
 - If AltaPay Omni is not displayed, select the **Choose alternative payment** buttont, and select AltaPay Omni from the list
 5. The account information is displayed.
@@ -165,14 +165,14 @@ When you first open the app from the administration page in Shopify, you need to
 
 **Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
 
-![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout.png)
+![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout_updated.png)
 
 8. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
 
 If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
 
-![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.png)
+![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode_updated.png)
 
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
