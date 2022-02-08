@@ -1,4 +1,4 @@
-# AltaPay Omni app for Shopify 
+# AltaPay Omni app for Shopify
 
 You can use the AltaPay Omni app for Shopify to configure the gateway, and access various gateway features directly in Shopify.
 
@@ -21,7 +21,7 @@ We will talk you through each of the steps in detail in the following sections, 
 
 New versions of the AltaPay Omni-Channel plugin for Shopify will be released as new features are added and bugs are fixed.
 
-# Shopify Payment plugin installation guide
+# Shopify payment plugin installation guide
 
 Installing this plug-in will enable the web shop to handle card transactions through AltaPay's gateway.
 
@@ -38,8 +38,6 @@ Installing this plug-in will enable the web shop to handle card transactions thr
     * [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify)
 
     * [Configuring the Payment Method terminals in the Shopify app](#configuring-the-payment-method-terminals-in-the-shopify-app)
-    
-
 
  - [Styling](#styling)
 
@@ -66,15 +64,15 @@ be provided by AltaPay.
 
 1.  AltaPay credentials:
 
--   Username
+    * Username
 
--   Password
+    * Password
 
 2.  AltaPay gateway information:
 
--   Terminal
+    * Terminal
 
--   Gateway
+    * Gateway
 
 # Installation
 **The Gateway and App for Shopify**
@@ -156,7 +154,7 @@ When you first open the app from the administration page in Shopify, you need to
 
 ![shopify_manage_AltaPay_Omni](/Docs/configuration/shopify_manage_AltaPay_Omni_updated.png)
 
-- If AltaPay Omni is not displayed, select the **Choose alternative payment** buttont, and select AltaPay Omni from the list
+- If AltaPay Omni is not displayed, select the **Choose alternative payment** button, and select AltaPay Omni from the list
 5. The account information is displayed.
 6. Key in the Shopify Shop name and AltaPay API password, and then select the payment methods that you support.
 7. Select the payment icons that you want to display with AltaPay payment method on checkout page.
@@ -500,7 +498,7 @@ You can view details on payments in the Shopify app, including payment method, f
 5. Here, you can see which payment method was used for a given payment in the order timeline, and high level fraud information. You can also see whether an option is supported for a given payment. (Some of the payment methods provided by AltaPay may not support all payment options such as payment release, refund or multiple refunds.)
 You can change the information that you see by clicking on **Edit** and updating the details.
 6. For more detailed information, use the transaction ID to search for the transaction in the Merchant Information Interface.
-7.If your agreement with AltaPay includes a gift card payment method, you can enable customers to query the remaining amount of their gift card. In order to do this, you must:
+7. If your agreement with AltaPay includes a gift card payment method, you can enable customers to query the remaining amount of their gift card. In order to do this, you must:
 -	Enable the gift card option on the given terminal - see [Configuring the payment methods (terminals)](https://docs.google.com/document/d/1E3Gbdpp2LVoT2Bvl8fEnhEvj-illN0msvizJpNjs27U/edit#heading=h.t53ej0y6yaf7?ts=5dc125cb) for more information.
 -	Insert a piece of code in your Shopify theme code. Which code to insert depends on which theme you are using, but an example of the code can be seen in [Editing Shopify Theme Code](#editing-shopify-theme-code)
 
