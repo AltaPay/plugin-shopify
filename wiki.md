@@ -149,7 +149,7 @@ When you first open the app from the administration page in Shopify, you need to
 
 3. Go to **Payments**
 
-![shopify_payments_menu](/Docs/configuration/shopify_payments_menu_updated.png)
+![shopify_payments_menu](/Docs/configuration/shopify_payments_menu_selected.png)
 
 4. Scroll down to **Alternative Payment Methods** and do one of the following:
 - If you see AltaPay Omni, click on the **Manage** button beside it. 
