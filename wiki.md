@@ -41,7 +41,7 @@ Installing this plug-in will enable the web shop to handle card transactions thr
 
  - [Styling](#styling)
 
-    * [Styling the Payment Pages in the AltaPay Omni app for Shopify](#styling-the-payment-pages-in-the-altaPay-omni-app-for-shopify)
+    * [Styling the Payment Pages in the AltaPay Omni app for Shopify](#styling-the-payment-pages-in-the-altapay-omni-app-for-shopify)
 
     * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
 
@@ -147,7 +147,7 @@ When you first open the app from the administration page in Shopify, you need to
 
 3. Go to **Payments**
 
-![shopify_payments_menu](/Docs/configuration/shopify_payments_menu_selected.png)
+![shopify_payments_menu](/Docs/configuration/shopify_payments_menu.png)
 
 4. Scroll down to **Alternative Payment Methods** and do one of the following:
 - If you see AltaPay Omni, click on the **Manage** button beside it. 
@@ -163,14 +163,14 @@ When you first open the app from the administration page in Shopify, you need to
 
 **Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
 
-![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout_updated.png)
+![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout.png)
 
 8. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
 
 If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
 
-![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode_updated.png)
+![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.png)
 
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
@@ -276,7 +276,7 @@ A customer telephone number is required when using Klarna.
 
 # Styling 
 
-**Styling the Payment Pages in the AltaPay Omni app for Shopify**
+## Styling the Payment Pages in the AltaPay Omni app for Shopify
 
 You can style the **Select Payment Method** and **Payment Form** pages within the **Shopify plugin**.
 
@@ -329,6 +329,8 @@ In the <b>Payment Form</b> page:
 ## Enable Credit Card Form by Default on Checkout
   
 **Display the credit card inputs by default on the terminal selection page**
+
+![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
   
 To display the credit card inputs by default on the terminal selection page follow the below steps.
 Login to the Shopify admin section.
@@ -351,10 +353,6 @@ settings.
 - Scroll bottom of the **Settings** page and click on **Reset HTML to default** and then click **Save**.
   
 ![shopify_klarna](/Docs/enable_cc-by_default/reset_html.jpg)
-  
-**Frontend View**
-  
-![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
 
 # Using the AltaPay Omni app for Shopify
 
