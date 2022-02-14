@@ -265,7 +265,7 @@ The default names of the payment methods come from the title the payment method 
 
 **Requirements for Specific Payment Methods**
 
-**Klarna**
+## Klarna
 
 A customer telephone number is required when using Klarna.
 
@@ -274,9 +274,18 @@ A customer telephone number is required when using Klarna.
 
 ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
+## Enable Orderlines in Klarna
+
+Orderlines are required to configure Klarna payment method successfully. 
+
+Orderlines settings can be found at the Klarna Payment Method Configurations page.
+You need to find "Show order details" section and click on "Yes" button to Enable the orderlines.
+
+![shopify_klarna_orderlines](/Docs/configuration/shopify_klarna_orderlines.png)
+
 # Styling 
 
-## Styling the Payment Pages in the AltaPay Omni app for Shopify
+### Styling the Payment Pages in the AltaPay Omni app for Shopify
 
 You can style the **Select Payment Method** and **Payment Form** pages within the **Shopify plugin**.
 
