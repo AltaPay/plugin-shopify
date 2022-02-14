@@ -274,7 +274,7 @@ A customer telephone number is required when using Klarna.
 
 ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
-## Enable Orderlines in Klarna
+### Enable Orderlines in Klarna
 
 Orderlines are required to configure Klarna payment method successfully. 
 
