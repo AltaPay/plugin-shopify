@@ -274,12 +274,10 @@ A customer telephone number is required when using Klarna.
 
 ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
-### Enable Orderlines in Klarna
+### Enable Orderlines for Klarna
 
-Orderlines are required to configure Klarna payment method successfully. 
-
-Orderlines settings can be found at the Klarna Payment Method Configurations page.
-You need to find "Show order details" section and click on "Yes" button to Enable the orderlines.
+Order lines are required for Klarna payments. So you have to enable the "Show order details" for Klarna in Terminal settings.
+To enable the order lines, click on a Klarna terminal and scroll to the "Show order details" section, and click on the "Yes" button.
 
 ![shopify_klarna_orderlines](/Docs/configuration/shopify_klarna_orderlines.png)
 
