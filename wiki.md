@@ -21,27 +21,41 @@ We will talk you through each of the steps in detail in the following sections, 
 
 New versions of the AltaPay Omni-Channel plugin for Shopify will be released as new features are added and bugs are fixed.
 
-# PrestaShop Payment plugin installation guide
+# Shopify payment plugin installation guide
 
 Installing this plug-in will enable the web shop to handle card transactions through AltaPay's gateway.
 
 **Table of Contents**
 
-[Prerequisites](#prerequisites)
+ - [Prerequisites](#prerequisites)
 
-[Installation](#installation)
+ - [Installation](#installation)
 
-[Configuration](#configuration)
+ - [Configuration](#configuration) 
+  
+    * [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify)
+      
+    * [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify)
 
-[Styling](#styling)
+    * [Configuring the Payment Method terminals in the Shopify app](#configuring-the-payment-method-terminals-in-the-shopify-app)
 
-[Viewing Payment Details](#viewing-payment-details)
+ - [Styling](#styling)
 
-[Switching between production and test environments](#environments)
+    * [Styling the Payment Pages in the AltaPay Omni app for Shopify](#styling-the-payment-pages-in-the-altapay-omni-app-for-shopify)
 
-[Making a test order](#making-a-test-order)
+    * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
 
-[Editing Shopify Theme Code](#editing-shopify-theme-code)
+ - [Using the AltaPay Omni app for Shopify](#using-the-altapay-omni-app-for-shopify) 
+
+ - [Verifying a Card via Link](#verifying-a-card-via-link)
+
+ - [Viewing Payment Details](#viewing-payment-details)
+
+ - [Switching between production and test environments](#environments)
+
+ - [Making a test order](#making-a-test-order)
+
+ - [Editing Shopify Theme Code](#editing-shopify-theme-code)
 
 # Prerequisites
 
@@ -50,15 +64,15 @@ be provided by AltaPay.
 
 1.  AltaPay credentials:
 
--   Username
+    * Username
 
--   Password
+    * Password
 
 2.  AltaPay gateway information:
 
--   Terminal
+    * Terminal
 
--   Gateway
+    * Gateway
 
 # Installation
 **The Gateway and App for Shopify**
@@ -128,16 +142,38 @@ When you first open the app from the administration page in Shopify, you need to
 
 1. Navigate to the **Admin** page, using the URL.
 2. Select the **Settings** button in the bottom left of the screen.
-3. Go to **Payment Providers**
+
+![shopify_settings_menu](/Docs/configuration/shopify_settings_menu_updated.png)
+
+3. Go to **Payments**
+
+![shopify_payments_menu](/Docs/configuration/shopify_payments_menu.png)
+
 4. Scroll down to **Alternative Payment Methods** and do one of the following:
-- If you see AltaPay Omni, click on the Edit button beside it.
-- If AltaPay Omni is not displayed, select the **Choose alternative payment** buttont, and select AltaPay Omni from the list
+- If you see AltaPay Omni, click on the **Manage** button beside it. 
+
+![shopify_manage_AltaPay_Omni](/Docs/configuration/shopify_manage_AltaPay_Omni_updated.png)
+
+- If AltaPay Omni is not displayed, select the **Choose alternative payment** button, and select AltaPay Omni from the list
 5. The account information is displayed.
-6. Key in the shop name and password, and then select the payment methods that you support.
-7. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
+6. Key in the Shopify Shop name and AltaPay API password, and then select the payment methods that you support.
+7. Select the payment icons that you want to display with AltaPay payment method on checkout page.
+
+![shopify_selected_all_icons](/Docs/configuration/shopify_selected_all_icons.png)
+
+**Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
+
+![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout.png)
+
+8. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
-8. Click **Activate** when you have completed the details.
-9. Next, you need to configure the app. See [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
+
+If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
+
+![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.png)
+
+9. Click **Activate** when you have completed the details.
+10. Next, you need to configure the app. See [Configuring the AltaPay Omni App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
 
 ## Configuring the AltaPay Omni App for Shopify
 
@@ -229,7 +265,7 @@ The default names of the payment methods come from the title the payment method 
 
 **Requirements for Specific Payment Methods**
 
-**Klarna**
+## Klarna
 
 A customer telephone number is required when using Klarna.
 
@@ -238,9 +274,16 @@ A customer telephone number is required when using Klarna.
 
 ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
+### Enable Orderlines for Klarna
+
+Order lines are required for Klarna payments. So you have to enable the "Show order details" for Klarna in Terminal settings.
+To enable the order lines, click on a Klarna terminal and scroll to the "Show order details" section, and click on the "Yes" button.
+
+![shopify_klarna_orderlines](/Docs/configuration/shopify_klarna_orderlines.png)
+
 # Styling 
 
-**Styling the Payment Pages in the AltaPay Omni app for Shopify**
+### Styling the Payment Pages in the AltaPay Omni app for Shopify
 
 You can style the **Select Payment Method** and **Payment Form** pages within the **Shopify plugin**.
 
@@ -293,6 +336,8 @@ In the <b>Payment Form</b> page:
 ## Enable Credit Card Form by Default on Checkout
   
 **Display the credit card inputs by default on the terminal selection page**
+
+![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
   
 To display the credit card inputs by default on the terminal selection page follow the below steps.
 Login to the Shopify admin section.
@@ -315,10 +360,6 @@ settings.
 - Scroll bottom of the **Settings** page and click on **Reset HTML to default** and then click **Save**.
   
 ![shopify_klarna](/Docs/enable_cc-by_default/reset_html.jpg)
-  
-**Frontend View**
-  
-![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
 
 # Using the AltaPay Omni app for Shopify
 
@@ -462,7 +503,7 @@ You can view details on payments in the Shopify app, including payment method, f
 5. Here, you can see which payment method was used for a given payment in the order timeline, and high level fraud information. You can also see whether an option is supported for a given payment. (Some of the payment methods provided by AltaPay may not support all payment options such as payment release, refund or multiple refunds.)
 You can change the information that you see by clicking on **Edit** and updating the details.
 6. For more detailed information, use the transaction ID to search for the transaction in the Merchant Information Interface.
-7.If your agreement with AltaPay includes a gift card payment method, you can enable customers to query the remaining amount of their gift card. In order to do this, you must:
+7. If your agreement with AltaPay includes a gift card payment method, you can enable customers to query the remaining amount of their gift card. In order to do this, you must:
 -	Enable the gift card option on the given terminal - see [Configuring the payment methods (terminals)](https://docs.google.com/document/d/1E3Gbdpp2LVoT2Bvl8fEnhEvj-illN0msvizJpNjs27U/edit#heading=h.t53ej0y6yaf7?ts=5dc125cb) for more information.
 -	Insert a piece of code in your Shopify theme code. Which code to insert depends on which theme you are using, but an example of the code can be seen in [Editing Shopify Theme Code](#editing-shopify-theme-code)
 
