@@ -208,7 +208,7 @@ A customer telephone number is required when using Klarna.
 
 # Styling 
 
-### Styling the Payment Pages in the AltaPay Omni app for Shopify
+### Styling the Payment Pages in the AltaPay Payments App for Shopify
 
 You can style the **Select Payment Method** and **Payment Form** pages within the **Shopify plugin**.
 
@@ -225,16 +225,13 @@ You can style the **Select Payment Method** and **Payment Form** pages within th
 > **You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.**
 
 1. Navigate to the **Admin** page, using the URL.
-2. Select **Apps** in the left hand pane, and then AltaPay Omni Gateway.
-3. You will see that there are two tabs on this page:
-
->- <b>Test</b>, for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
->- <b>Production</b>, for configuring the production account, i.e. the account which will enable actual financial transactions
-
-4. Make sure that you are working in the correct tab.
-5. Select **Settings** at the top of the window.
-6. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
-7. Make your changes, noting the following:
+2. Select **Settings** and then **Payments**.
+3. Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+4. Click on **Manage** button from **Account status** section.
+5. This will redirect you to **AltaPay Payments App** configuration page.
+6. Select **Settings** at the top of the window.
+7. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
+8. Make your changes, noting the following:
 
 >- <b>You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.</b>
 >- In the Select <b>Payment Method</b> page:
