@@ -9,7 +9,7 @@ Installing and configuring it is very straightforward. You simply take the follo
 3. Configure your payment methods
 4. Style your payment forms
 
-We will talk you through each of the steps in detail in the following sections, after which you will be ready to use your app.
+We will take you through each of the steps in detail in the following sections, after which you will be ready to use your app.
 
 **Versions**
 
@@ -27,7 +27,7 @@ Installing this app will enable the web shop to handle card transactions through
 
  - [Configuration](#configuration) 
   
-    * [Configuring the Checkout options](#configuring-the-checkout-options)
+    * [Configuring the checkout options](#configuring-the-checkout-options)
       
     * [Configuring the AltaPay Payments App for Shopify](#configuring-the-altapay-omni-app-for-shopify)
 
@@ -55,13 +55,11 @@ be provided by AltaPay.
 1.  AltaPay credentials:
 
     * Username
-
     * Password
 
 2.  AltaPay gateway information:
 
     * Terminal
-
     * Gateway
 
 # Installation
@@ -72,7 +70,7 @@ You can install the app directly by following the below installation link
 
 # Configuration
 
-When you first open the app from the administration page in Shopify, you need to configure the checkout options.
+When you first open the app from the admin page in Shopify, you need to configure the checkout options.
 
 1. Navigate to the **Admin** page, using the URL.
 2. Select the **Settings** button in the bottom left of the screen.
@@ -81,28 +79,26 @@ When you first open the app from the administration page in Shopify, you need to
 
 3. Go to **Payments**
 
-![shopify_payments_menu](/Docs/configuration/shopify_payments_menu.png)
-
 4. Scroll down to **Supported payment methods** and do one of the following:
 - If you see AltaPay, click on the **Manage** button beside it. 
 
-![shopify_manage_AltaPay_Omni](/Docs/configuration/shopify_manage_AltaPay_Omni_updated.png)
+![shopify_manage_AltaPay_Omni](/Docs/configuration/altapay_supported_payment_methods.jpg)
 
-- If AltaPay is not displayed, select the **Choose alternative payment** button, and select AltaPay from the list
+- If AltaPay is not displayed, select the **Add payment methods** button, and select AltaPay from the list
 5. Select the payment icons that you want to display with AltaPay payment method on checkout page.
 
-![shopify_selected_all_icons](/Docs/configuration/shopify_selected_all_icons.png)
+![shopify_select_icons](/Docs/configuration/shopify_select_icons.jpg)
 
 **Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
 
-![shopify_only_four_displayed_on_checkout](/Docs/configuration/shopify_only_four_displayed_on_checkout.png)
+![altapay_on_checkout](/Docs/configuration/altapay_on_checkout.jpg)
 
 8. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
 
 If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
 
-![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.png)
+![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.jpg)
 
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Payments App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
