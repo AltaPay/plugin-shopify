@@ -264,24 +264,14 @@ In the <b>Payment Form</b> page:
 To display the credit card inputs by default on the terminal selection page follow the below steps.
 Login to the Shopify admin section.
   
-- Navigate to the **Apps** section.
-  
-- Click on the **AltaPay Gateway** app.
-  
+-  Navigate to the **Admin** page, using the URL.
+-  Select **Settings** and then **Payments**.
+-  Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+-  Click on **Manage** button from **Account status** section.
+-  This will redirect you to **AltaPay Payments App** configuration page.
 - Click on the **Settings** tab.
-  
-- Scroll to **Show credit card form by default** section and click on **Enable** button and **Save** the
+- Scroll to **Show credit card form by default** section and click on **Activate** button and **Save** the
 settings.
-
-![shopify_klarna](/Docs/enable_cc-by_default/enable_cc_by_default.jpg)
-  
-> Note: Existing merchants need to perform the below step to load
-> the new elements on the payment page.
-> It's recommended to take a backup of existing HTML on the **Settings** page.
-  
-- Scroll bottom of the **Settings** page and click on **Reset HTML to default** and then click **Save**.
-  
-![shopify_klarna](/Docs/enable_cc-by_default/reset_html.jpg)
 
 # Using the AltaPay Payments App for Shopify
 
