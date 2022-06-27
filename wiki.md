@@ -118,9 +118,11 @@ Having configured the AltaPay payments, you now need to configure the app.
 > All of these will be provided by AltaPay.
 
 1. Navigate to the **Admin** page, using the URL.
-2. Select **Apps** and then the gateway.
-3. The configuration window is displayed.
-4. You will see that there are two tabs on this page, even if you do not have a production account:
+2. Select **Settings** and then **Payments**.
+3. Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+4. Click on **Manage** button from **Account status** section.
+5. This will redirect you to **AltaPay Payments App** configuration page.
+6. You will see that there are two tabs on this page, even if you do not have a production account:
 - **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
 - **Production** for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
 
@@ -128,7 +130,7 @@ Having configured the AltaPay payments, you now need to configure the app.
 6. Enter the username and password AltaPay has given to you.
 7. If you are working in the Production account, specify the AltaPay Omni-Channel URL.
 
-![shopify_gateway_config](/Docs/configuration/shopify-gateway-config.png)
+![shopify_gateway_config](/Docs/configuration/shopify_gateway_config.jpg)
 
 8. Save the details.
 9. Next, you need to configure the payment methods (terminals). See [Configuring the Payment Methods](#configuring-the-payment-methods) for more details.
@@ -146,8 +148,8 @@ Having configured the AltaPay payments, you now need to configure the app.
 1. Navigate to the Admin page, using the URL.
 2. You will see that there are two tabs on this page:
 
->- Test for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
->- Production for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
+>- **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
+>- **Production** for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
 
 3. Make sure that you are working in the correct tab.
 4. You will see a list of payment methods configured by AltaPay according to the agreement you have made with us.
@@ -159,7 +161,7 @@ The default names of the payment methods come from the title the payment method 
 5. Click on a given terminal/payment method to change the configuration.
 6. The payment method details are displayed. Configure the details as required, using the notes and illustration for guidance.
 
-![shopify_config_pm_2](/Docs/configuration/shopify_config_pm_2.png)
+![config_terminals](/Docs/configuration/config_terminals.jpg)
 
 >- Complete the details:
 
@@ -181,11 +183,12 @@ The default names of the payment methods come from the title the payment method 
 </table>
 </tbody>
 
-- Specify whether **order details** will be shown in the payment form.
+- Specify whether **order lines** will be shown in the payment form.
 
 >**Tips**
 >
->If a high amount of orders are placed in a shop (more than 2 orders per second), it might require additional time (up to 5 seconds) to fetch the order details from Shopify due to their API call limit. If you do not want this delay, disable this option. If the retrieval time exceeds 5 seconds, the order details will not be shown or sent to the gateway.
+> Order lines are required for Klarna payments. So you have to enable the order lines optionfor Klarna in Terminal settings.
+To enable the order lines, click on a Klarna terminal and scroll to the "Order lines" section, and click on the "Enable" button.
 
 - Select whether the **payment method is active** - this decides whether the customer can select this payment method to complete the transaction.
 - Choose from the predefined **icons** to display to the customer for a given payment method. You can select a single icon from the left hand column. If the payment method is **Credit Card**, you can select multiple icons. These will be shown in the **Select Payment Method** page, and the **Payment Form** page.
@@ -202,13 +205,6 @@ A customer telephone number is required when using Klarna.
 2. Go to the <strong>Form Options</strong> section, and mark the <strong>Shipping address phone number</strong> in the checkout flow as **“Required”**.
 
 ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
-
-### Enable Orderlines for Klarna
-
-Order lines are required for Klarna payments. So you have to enable the "Show order details" for Klarna in Terminal settings.
-To enable the order lines, click on a Klarna terminal and scroll to the "Show order details" section, and click on the "Yes" button.
-
-![shopify_klarna_orderlines](/Docs/configuration/shopify_klarna_orderlines.png)
 
 # Styling 
 
