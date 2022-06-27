@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [1.0.0]
 - First release of AltaPay Payments App
 
-## HPSDK Payment App [deprecated]
+# HPSDK Payment App [deprecated]
 
 ## [2.2.4]
 - Add option to display credit card form by default on terminal selection page
