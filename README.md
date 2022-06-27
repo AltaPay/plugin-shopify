@@ -1,4 +1,8 @@
-# AltaPay for ShopifyPlus
+# AltaPay for Shopify
+
+## Shopify App Store link
+
+https://apps.shopify.com/altapay-payments-app
 
 ## Installation
 
