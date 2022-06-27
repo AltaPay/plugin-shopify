@@ -275,17 +275,16 @@ settings.
 
 # Using the AltaPay Payments App for Shopify
 
-# Viewing Payment Details
+## Viewing Payment Details
 
 You can view details on payments in the Shopify app, including payment method, fraud information, payment options, and, if relevant, gift card details.
 
 1. Navigate to the **Admin** page, using the URL.
 2. Select **Orders** in the left hand pane.
 3. Select the order you want to view.
-4. In the **Additional Details** pane, on the right hand side, you will see the AltaPay Omni-Channel transaction ID, and an overview of the order.
-5. Here, you can see which payment method was used for a given payment in the order timeline, and high level fraud information. You can also see whether an option is supported for a given payment. (Some of the payment methods provided by AltaPay may not support all payment options such as payment release, refund or multiple refunds.)
-You can change the information that you see by clicking on **Edit** and updating the details.
-6. For more detailed information, use the transaction ID to search for the transaction in the Merchant Information Interface.
+4. In the **Timeline** section, click on the AltaPay's payment link.
+5. Click on **Information from the gateway** to see the gateway Order ID.
+6. Copy the payment ID (remove any dashes and underscores in it) and search the order on the gateway side.
 
 # Environments
 
