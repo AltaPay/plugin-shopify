@@ -293,15 +293,15 @@ You can view details on payments in the Shopify app, including payment method, f
 If you want to test the gateway in the test environment and switch to the production environment, or vice versa, you must remember to:
 
 -	Change the account details on the gateway, and set the test flag accordingly:
->1.	Go to Settings > Payment providers.
->2. Scroll down to **Alternative payment methods**.
->3. Click **Manage** where it says “AltaPay Omni is active”.
+>1.	Go to Settings > Payments.
+>2. Scroll down to **Supported payment methods**.
+>3. Click **Manage** where it says “AltaPay”.
 
 ![shopify_altve_pm](/Docs/switching_bw_test_and_producrtion_env/shopify_altve_pm.jpg)
 
 > **Tips**
 > 
-> Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify).
+> Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
 # Making a test order
 
@@ -309,16 +309,16 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 
 - Change the account details on the gateway, and set the test flag accordingly:
 >1. Go to Settings > Payment providers.
->2. Scroll down to **Alternative payment methods**.
->3. Click **Manage** where it says “AltaPay Omni is active”.
+>2. Scroll down to **Supported payment methods**.
+>3. Click **Manage** where it says “AltaPay”.
 
 ![shopify_altve_pm](/Docs/making_a_test_order/shopify_altve_pm.jpg)
 
 > **Tips**
 > 
-> Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Omni Gateway for Shopify](#configuring-the-altapay-omni-gateway-for-shopify).
+> Ensure the relevant account is defined in the app, as described in  [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
-1. Place an order, selecting the AltaPay Omni-Channel gateway in the checkout.
+1. Place an order, selecting the **AltaPay - Multiple Payment Options** in the checkout.
 2. Select the payment method on the following page and enter some dummy payment details.
 3. You know that it has completed successfully when the Success page is displayed.
 
