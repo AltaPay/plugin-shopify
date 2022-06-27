@@ -23,15 +23,15 @@ Installing this app will enable the web shop to handle card transactions through
 
  - [Prerequisites](#prerequisites)
 
- - [Installation](#installation)
+ - [Installation Link](#installation-link)
 
  - [Configuration](#configuration) 
   
     * [Configuring the checkout options](#configuring-the-checkout-options)
       
-    * [Configuring the AltaPay Payments App for Shopify](#configuring-the-altapay-omni-app-for-shopify)
+    * [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app)
 
-    * [Configuring the Payment Method terminals in the Shopify app](#configuring-the-payment-method-terminals-in-the-shopify-app)
+    * [Configuring the Payment Methods](#configuring-the-payment-methods)
 
  - [Styling](#styling)
 
@@ -62,13 +62,15 @@ be provided by AltaPay.
     * Terminal
     * Gateway
 
-# Installation
+# Installation Link
 
 You can install the app directly by following the below installation link
 
 ``https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191``
 
 # Configuration
+
+## Configuring the checkout options
 
 When you first open the app from the admin page in Shopify, you need to configure the checkout options.
 
@@ -103,7 +105,7 @@ If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ mu
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Payments App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
 
-## Configuring the app
+## Configuring the AltaPay Payments App
 
 Having configured the AltaPay payments, you now need to configure the app.
 
@@ -129,9 +131,9 @@ Having configured the AltaPay payments, you now need to configure the app.
 ![shopify_gateway_config](/Docs/configuration/shopify-gateway-config.png)
 
 8. Save the details.
-9. Next, you need to configure the payment methods (terminals). See [Configuring the Payment Method terminals in the Shopify App](#configuring-the-payment-method-terminals-in-the-shopify-app) for more details.
+9. Next, you need to configure the payment methods (terminals). See [Configuring the Payment Methods](#configuring-the-payment-methods) for more details.
 
-## Configuring the Payment Method terminals in the Shopify app
+## Configuring the Payment Methods
 
 > **Prerequisites**
 > 
