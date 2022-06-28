@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 - First release of app using the new Payments Apps Platform
 https://shopify.dev/apps/payments
 
-- #### Supported Features:
+- **Supported Features:**
     - Payment Page Redirect
     - Auto-Expand Credit Card Form
     - Configuration of payment methods
