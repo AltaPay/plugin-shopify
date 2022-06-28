@@ -1,6 +1,20 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.0]
+- First release of app using the new Payments Apps Platform
+https://shopify.dev/apps/payments
+
+- **Supported Features:**
+    - Payment Page Redirect
+    - Auto-Expand Credit Card Form
+    - Configuration of payment methods
+    - Payment Methods and Payment Form pages styling option
+    - Switching between production and test environments
+    - Multilingual Support
+
+# HPSDK Payment App [deprecated]
+
 ## [2.2.4]
 - Add option to display credit card form by default on terminal selection page
 ## [2.2.3]
@@ -34,4 +48,4 @@ All notable changes to this project will be documented in this file.
 ## [2.0.0]
 - Multiple fixtures and improvements
 ## [1.0.0]
-- First release of the plugin 
+- First release of the plugin
