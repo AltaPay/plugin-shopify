@@ -2,7 +2,16 @@
 All notable changes to this project will be documented in this file.
 
 ## [app-1.0.0]
-- First release of AltaPay Payments App
+- First release of app using the new Payments Apps Platform
+https://shopify.dev/apps/payments
+
+- #### Supported Features:
+    - Payment Page Redirect
+    - Auto-Expand Credit Card Form
+    - Configuration of payment methods
+    - Payment Methods and Payment Form pages styling option
+    - Switching between production and test environments
+    - Multilingual Support
 
 # HPSDK Payment App [deprecated]
 
