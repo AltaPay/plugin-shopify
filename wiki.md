@@ -66,7 +66,9 @@ be provided by AltaPay.
 
 You can install the app directly by following the below installation link
 
-``https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191``
+```
+https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
+```
 
 # Configuration
 
