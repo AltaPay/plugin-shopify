@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.1]
+- Fix payment capture status discrepancy in case of iDEAL when capture is set to manual in Shopify store
+
 ## [app-1.0.0]
 - First release of app using the new Payments Apps Platform
 https://shopify.dev/apps/payments
