@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [app-1.0.2]
-- Fix: translation issue for payment formgit branch
+- Fix: translation issue for payment form
 - Fix: payment capture issue in case of previous declined status
 
 ## [app-1.0.1]
