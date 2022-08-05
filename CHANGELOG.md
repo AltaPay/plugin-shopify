@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [app-1.0.2]
 - Fix: translation issue for payment formgit branch
+- Fix: payment capture issue in case of previous declined status
 
 ## [app-1.0.1]
 - Fix payment capture status discrepancy in case of iDEAL when capture is set to manual in Shopify store
