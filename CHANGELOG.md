@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.4]
+
+- Fix: Handle duplicate transactions against same order id
+
 ## [app-1.0.3]
 
 - Fix: Do not create pending order on payment failure
