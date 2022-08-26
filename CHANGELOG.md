@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.5]
+- Fix: Auto release payments issue
+
 ## [app-1.0.4]
 - Fix: Handle duplicate transactions against same order id
 
