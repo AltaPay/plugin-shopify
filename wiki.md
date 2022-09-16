@@ -189,7 +189,7 @@ The default names of the payment methods come from the title the payment method 
 
 >**Note**
 >
-> Order lines are required for Klarna payments. So you have to enable the "Order lines" option for Klarna in Terminal settings. This will automatically add a single line item with **Total** amount to ensure that the total amount of the order is correct. We did this change as line items aren't available through Shopify's Payments Apps APIs.
+> Order lines are required for Klarna payments. So you have to enable the "Order lines" option for Klarna in Terminal settings. This will automatically add a single line item with **Total** amount as Shopify does not share actual line items with any third-party payment provider.
 >
 > To enable the order lines, click on a Klarna terminal and scroll to the "Order lines" section, and click on the "Enable" button.
 
