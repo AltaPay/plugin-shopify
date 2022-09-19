@@ -187,10 +187,11 @@ The default names of the payment methods come from the title the payment method 
 
 - Specify whether **order lines** will be shown in the payment form.
 
->**Tips**
+>**Note**
 >
-> Order lines are required for Klarna payments. So you have to enable the order lines optionfor Klarna in Terminal settings.
-To enable the order lines, click on a Klarna terminal and scroll to the "Order lines" section, and click on the "Enable" button.
+> Order lines are required for Klarna payments. So you have to enable the "Order lines" option for Klarna in Terminal settings. This will automatically add a single line item with **Total** amount as Shopify does not share actual line items with any third-party payment provider.
+>
+> To enable the order lines, click on a Klarna terminal and scroll to the "Order lines" section, and click on the "Enable" button.
 
 - Select whether the **payment method is active** - this decides whether the customer can select this payment method to complete the transaction.
 - Choose from the predefined **icons** to display to the customer for a given payment method. You can select a single icon from the left hand column. If the payment method is **Credit Card**, you can select multiple icons. These will be shown in the **Select Payment Method** page, and the **Payment Form** page.
