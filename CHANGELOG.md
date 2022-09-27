@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [app-1.0.6]
-- Fix: Add Shopify store order **Payment ID** as reconciliation identifier in AltaPay Gateway
+- Add Shopify store order **Payment ID** as reconciliation identifier in AltaPay Gateway
 
 ## [app-1.0.5]
 - Fix: Auto release payments issue
