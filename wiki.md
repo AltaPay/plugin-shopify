@@ -46,6 +46,8 @@ Installing this app will enable the web shop to handle card transactions through
  - [Switching between production and test environments](#environments)
 
  - [Making a test order](#making-a-test-order)
+  
+ - [Reconciliation Identifier](#reconciliation-identifier)
 
 # Prerequisites
 
@@ -328,3 +330,20 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 > **Notes**
 > 
 > The payment can be released, captured and/or refunded as well.
+
+
+# Reconcile Orders
+In order to reconcile payments on AltaPay please follow the steps below:
+
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Orders** in the left hand pane.
+3. Select the order you want to view.
+4. In the **Timeline** section, Click the dropdown to view the AltaPay Payments App payment details.
+ 
+   ![reconcile_step_2](Docs/reconciliation/reconcile_step_1.jpg)
+ 
+5. Click on **Information from the gateway** to see the gateway Order ID.
+6. Copy the payment id, as it is the reconciliation identifier on AltaPay.
+ 
+   ![reconcile_step_2](Docs/reconciliation/reconcile_step_2.jpg)
+ 
