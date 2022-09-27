@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.6]
+- Fix: Add payment reference from Shopify as reconciliation identifier in AltaPay payments
+
 ## [app-1.0.5]
 - Fix: Auto release payments issue
 
@@ -12,11 +15,11 @@ All notable changes to this project will be documented in this file.
 - Show error message on payment failure
 
 ## [app-1.0.2]
-- Fix: translation issue for payment form
-- Fix: payment capture issue in case of previous declined status
+- Fix: Translation issue for payment form
+- Fix: Payment capture issue in case of previous declined status
 
 ## [app-1.0.1]
-- Fix payment capture status discrepancy in case of iDEAL when capture is set to manual in Shopify store
+- Fix: Payment capture status discrepancy in case of iDEAL when capture is set to manual in Shopify store
 
 ## [app-1.0.0]
 - First release of app using the new Payments Apps Platform
