@@ -323,7 +323,7 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 > 
 > Ensure the relevant account is defined in the app, as described in  [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
-1. Place an order, selecting the **AltaPay - Multiple Payment Options** in the checkout.
+1. Place an order by selecting the **AltaPay - Multiple Payment Options** in the checkout.
 2. Select the payment method on the following page and enter some dummy payment details.
 3. You know that it has completed successfully when the Success page is displayed.
 
@@ -342,12 +342,12 @@ In order to reconcile payments on AltaPay please follow the steps below:
  
    ![reconcile_step_2](Docs/reconciliation/reconcile_step_1.jpg)
  
-5. Click on **Information from the gateway** to see the gateway Order ID.
+5. Click on **Information from the gateway** to see the gateway payment id.
 6. Copy the payment id, as it is the reconciliation identifier on AltaPay.
  
    ![reconcile_step_2](Docs/reconciliation/reconcile_step_2.jpg)
 
-7. Or export the order data from Shopify by select the order(s) you want to export and click **Export** button in the top right corner.
+7. Or export the order data from Shopify by selecting the order(s) you want to export and click **Export** button in the top right corner.
 
     ![export_shopify_order](Docs/reconciliation/export_shopify_order.jpg) 
  
