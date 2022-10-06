@@ -46,6 +46,8 @@ Installing this app will enable the web shop to handle card transactions through
  - [Switching between production and test environments](#environments)
 
  - [Making a test order](#making-a-test-order)
+  
+ - [Reconcile Orders](#reconcile-orders)
 
 # Prerequisites
 
@@ -300,7 +302,7 @@ If you want to test the gateway in the test environment and switch to the produc
 >2. Scroll down to **Supported payment methods**.
 >3. Click **Manage** where it says “AltaPay”.
 
-![shopify_altve_pm](/Docs/switching_bw_test_and_producrtion_env/shopify_altve_pm.jpg)
+![shopify_altve_pm](/Docs/switching_bw_test_and_production_env/shopify_altve_pm.jpg)
 
 > **Tips**
 > 
@@ -321,10 +323,48 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
 > 
 > Ensure the relevant account is defined in the app, as described in  [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
-1. Place an order, selecting the **AltaPay - Multiple Payment Options** in the checkout.
+1. Place an order by selecting the **AltaPay - Multiple Payment Options** in the checkout.
 2. Select the payment method on the following page and enter some dummy payment details.
 3. You know that it has completed successfully when the Success page is displayed.
 
 > **Notes**
 > 
 > The payment can be released, captured and/or refunded as well.
+
+
+# Reconcile Orders
+In order to reconcile payments on AltaPay please follow the steps below:
+
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Orders** in the left hand pane.
+3. Select the order you want to view.
+4. In the **Timeline** section, Click the dropdown to view the AltaPay Payments App payment details.
+ 
+   ![reconcile_step_2](Docs/reconciliation/reconcile_step_1.jpg)
+ 
+5. Click on **Information from the gateway** to see the gateway payment id.
+6. Copy the payment id, as it is the reconciliation identifier on AltaPay.
+ 
+   ![reconcile_step_2](Docs/reconciliation/reconcile_step_2.jpg)
+
+7. Or export the order data from Shopify by selecting the order(s) you want to export and click **Export** button in the top right corner.
+
+    ![export_shopify_order](Docs/reconciliation/export_shopify_order.jpg) 
+ 
+8. Navigate to AltaPay Gateway dashboard
+9. Click on **FUNDING FILES** under **FINANCES** menu
+10. Download the CSV file
+11. Or you can find the payment in the transaction list, open the reconciliation file from there and download a csv file
+12. Open the downloaded CSV file and match the **Reconciliation Identifier** with the **Payment ID** (on the Shopify order timeline) to map the payments.
+
+ Below are the screenshots from the AltaPay Gateway CSV file & Shopify exported order data respectively.   
+
+**Sample AltaPay Gateway CSV:**
+
+ ![funding_list_csv](Docs/reconciliation/funding_list_csv.png)
+
+**Shopify exported order CSV:**
+
+ ![shopify_order_csv](Docs/reconciliation/shopify_order_csv.png)
+
+ 
