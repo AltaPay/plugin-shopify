@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.7]
+- Fix: Checkout custom HTML change doesn't affect the checkout page
+- Fix: Checkout "Other payment methods" heading is showing when only the credit card is enabled
+
 ## [app-1.0.6]
 - Add Shopify store order **Payment ID** as reconciliation identifier in AltaPay Gateway
 
