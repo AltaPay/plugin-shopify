@@ -226,8 +226,6 @@ You can style the **Select Payment Method** and **Payment Form** pages within th
 (It is typically in the format <strong>https://<shop_name>.myshopify.com/admin)</strong>
 > 
 > All of these details will be emailed to you by AltaPay as part of the onboarding.
-> 
-> **You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.**
 
 1. Navigate to the **Admin** page, using the URL.
 2. Select **Settings** and then **Payments**.
@@ -238,7 +236,6 @@ You can style the **Select Payment Method** and **Payment Form** pages within th
 7. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
 8. Make your changes, noting the following:
 
->- <b>You cannot change certain elements of the page. The AltaPay logo must remain in the header, and the statement in the footer must not be altered.</b>
 >- In the Select <b>Payment Method</b> page:
 >- The mandatory payment method placeholder is
 ```html
