@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.8]
+- Fix: Increase masked pan length to prevent data loss for capture operations
+- Update AltaPay PHP SDK version to support API changes from 20221026
+
 ## [app-1.0.7]
 - Fix: Checkout custom HTML change doesn't affect the checkout page
 - Fix: Checkout "Other payment methods" heading is showing when only the credit card is enabled
