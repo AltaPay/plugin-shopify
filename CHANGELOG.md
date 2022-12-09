@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.0.9]
+
+- Fix: Capture payments if auto-capture is enabled & payment is still in capturable state.
+
 ## [app-1.0.8]
 - Fix: Increase masked pan length to prevent data loss for capture operations
 - Update AltaPay PHP SDK version to support API changes from 20221026
