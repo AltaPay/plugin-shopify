@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [app-1.1.1]
 
-- Fix: Make Shopify payment statuses update jobs more reliable.
+- Fix: Make Shopify payment statuses update jobs more reliable and remove delays.
  
 ## [app-1.1.0]
 
