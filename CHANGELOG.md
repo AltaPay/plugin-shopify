@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.1.1]
+
+- Fix: Make Shopify payment statuses update jobs more reliable.
+ 
 ## [app-1.1.0]
 
 - Fix: Allow checkout when any address field is missing from Shopify end.
