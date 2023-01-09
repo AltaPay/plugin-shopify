@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.1.2]
+
+- Use redis for queues to make Shopify payment statuses update jobs more robust.
+
 ## [app-1.1.1]
 
 - Fix: Make Shopify payment statuses update jobs more reliable and remove delays.
