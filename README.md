@@ -1,12 +1,12 @@
 # AltaPay for Shopify
 
-## Shopify app store links
+## Shopify App Store links
 
-### App with Mutiple Payment Options
-https://apps.shopify.com/altapay-payments-app
+* ### App with Mutiple Payment Options
+    https://apps.shopify.com/altapay-payments-app
 
-### Individual app for MobilePay
-https://apps.shopify.com/altapay-mobilepay
+* ### Individual app for MobilePay
+    https://apps.shopify.com/altapay-mobilepay
 
 ## Installation
 
