@@ -118,7 +118,7 @@ When you first open the app from the admin page in Shopify, you need to configur
     ![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.jpg)
 
 9. Click **Activate** when you have completed the details.
-10. Next, you need to configure the app. See [Configuring the AltaPay Payments App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
+10. Next, you need to configure the app. See [Configuring the AltaPay Payments App](#configuring-the-altapay-omni-app) for more details.
 
 ## Configuring the AltaPay Payments App
 
