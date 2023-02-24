@@ -17,15 +17,15 @@ New versions of the app will be released as new features are added and bugs are 
 
 # Installation
 
-Installing this app will enable the web shop to handle payments through AltaPay's gateway.
+Installing these apps will enable the web shop to handle payments through AltaPay's gateway.
 
 **Table of Contents**
 
  - [Prerequisites](#prerequisites)
 
- - [Installation Link](#installation-link)
+ - [Installation Links](#installation-links)
   
-    * [App with Multiple Payment Options](#app-with-mutiple-payment-options)
+    * [App with Multiple Payment Options](#app-with-multiple-payment-options)
     * [Individual app for MobilePay](#individual-app-for-mobilepay)
 
  - [Configuration](#configuration) 
@@ -69,7 +69,7 @@ be provided by AltaPay.
 
 # Installation Links
 
-You can install the app directly by following the below installation links for each app
+You can install the apps directly using the below respective installation links:
 
 * ### App with Multiple Payment Options
 
@@ -162,8 +162,10 @@ Having configured the AltaPay payments, you now need to configure the app.
 1. Navigate to the app page.
 2. You will see that there are two tabs on this page:
 
->- **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
->- **Production** for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
+    >- **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
+    >- **Production** for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
+
+    <br>
 
 3. Make sure that you are working in the correct tab.
 4. You will see a list of payment methods configured by AltaPay according to the agreement you have made with us. 
@@ -173,6 +175,7 @@ Having configured the AltaPay payments, you now need to configure the app.
     > * If you are configuring the payment method for individual app, you will see detail page instead of payment methods list. 
     > * Skip point 5 and 6 for individual app.
 
+    <br>
   
     ![shopify_config_pm_1](/Docs/configuration/shopify_config_pm_1.png)
 
@@ -260,33 +263,38 @@ You can style the **Select Payment Method** and **Payment Form** pages within th
 7. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
 8. Make your changes, noting the following:
 
->- In the Select <b>Payment Method</b> page:
->- The mandatory payment method placeholder is
-```html
-    <div class="sm:w-1/2 sm:mr-2 md:mr-4 order-2 sm:order-1" id="PaymentMethodsPlaceholder"></div>
-```
->- The order details placeholder is<br>
-```html
-    <div class="sm:w-1/2 sm:ml-2 md:ml-4 sm:mb-0 order-1 sm:order-2" id="OrderDetailsPlaceholder">
-```
+    >- In the Select <b>Payment Method</b> page:
+    >- The mandatory payment method placeholder is
+
+    <br>
+
+    ```html
+        <div class="sm:w-1/2 sm:mr-2 md:mr-4 order-2 sm:order-1" id="PaymentMethodsPlaceholder"></div>
+    ```
+    >- The order details placeholder is<br>
+    ```html
+        <div class="sm:w-1/2 sm:ml-2 md:ml-4 sm:mb-0 order-1 sm:order-2" id="OrderDetailsPlaceholder">
+    ```
 In the <b>Payment Form</b> page:
 
 - The credit cards placeholder is<br>
-```html
-    <div class="px-4 md:px-10 text-center mb-8" id="CreditCardsPlaceholder">
- ```
+  ```html
+      <div class="px-4 md:px-10 text-center mb-8" id="CreditCardsPlaceholder">
+  ```
 - The dynamic cancel payment url will be replaced on a <a> tag with CancelPaymentLinkPlaceholder
 - The cancel payment button <b>(CancelPaymentButtonPlaceholder)</b> will be removed for credit customer and verify card transactions
->You should adhere to the rules and advice specified in the online help in the testgateway - https://testgateway.altapaysecure.com/merchant/help/FrontendIntegration#Payment_page__form_callback
+  <br>
+
+  >You should adhere to the rules and advice specified in the online help in the testgateway - https://testgateway.altapaysecure.com/merchant/help/FrontendIntegration#Payment_page__form_callback
 
 8. Click on <b>Save</b> to save the details, or <b>Reset HTML to Default</b> to restore the default settings.
 
 ## Enable Credit Card Form by Default on Checkout
 
->**Note**
->
-> This is only applicable if you are configuring the AltaPay app with Multiple Payment Options.
-> Skip this section for individual app types.
+  >**Note**
+  >
+  > This is only applicable if you are configuring the AltaPay app with Multiple Payment Options.
+  > Skip this section for individual app types.
 
 **Display the credit card inputs by default on the terminal selection page**
 
@@ -324,38 +332,44 @@ You can view details on payments in the Shopify app, including payment method, f
 If you want to test the gateway in the test environment and switch to the production environment, or vice versa, you must remember to:
 
 -	Change the account details on the gateway, and set the test flag accordingly:
->1.	Go to Settings > Payments.
->2. Scroll down to **Supported payment methods**.
->3. Click **Manage** where it says “AltaPay”.
+    >1.	Go to Settings > Payments.
+    >2. Scroll down to **Supported payment methods**.
+    >3. Click **Manage** where it says “AltaPay”.
+    
+    <br>
 
-![shopify_altve_pm](/Docs/switching_bw_test_and_production_env/shopify_altve_pm.jpg)
+    ![shopify_altve_pm](/Docs/switching_bw_test_and_production_env/shopify_altve_pm.jpg)
 
-> **Tips**
-> 
-> Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
+    > **Tips**
+    > 
+    > Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
 # Making a test order
 
 In order to place an order and pay with the AltaPay Omni-Channel test gateway, you should first ensure the test environment is properly set up:
 
 - Change the account details on the gateway, and set the test flag accordingly:
->1. Go to Settings > Payment providers.
->2. Scroll down to **Supported payment methods**.
->3. Click **Manage** where it says “AltaPay”.
+    <br>
 
-![shopify_altve_pm](/Docs/making_a_test_order/shopify_altve_pm.jpg)
+  >1. Go to Settings > Payment providers.
+  >2. Scroll down to **Supported payment methods**.
+  >3. Click **Manage** where it says “AltaPay”.
 
-> **Tips**
-> 
-> Ensure the relevant account is defined in the app, as described in  [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
+    <br>
+
+  ![shopify_altve_pm](/Docs/making_a_test_order/shopify_altve_pm.jpg)
+
+  > **Tips**
+  > 
+  > Ensure the relevant account is defined in the app, as described in  [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
 1. Place an order by selecting the **AltaPay - Multiple Payment Options** in the checkout.
 2. Select the payment method on the following page and enter some dummy payment details.
 3. You know that it has completed successfully when the Success page is displayed.
 
-> **Notes**
-> 
-> The payment can be released, captured and/or refunded as well.
+  > **Notes**
+  > 
+  > The payment can be released, captured and/or refunded as well.
 
 
 # Reconcile Orders
