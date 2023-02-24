@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.1.3]
+
+- Add support for the MobilePay individual app.
+- Redirect to the payment page by default if the merchant has only one active terminal.
+- Implement Content Security Policy frame-ancestors directive to avoid clickjacking.
+
 ## [app-1.1.2]
 
 - Use redis for queues to make Shopify payment statuses update jobs more robust.

@@ -1,8 +1,8 @@
-# AltaPay Payments App
+# AltaPay Payments Apps
 
-You can use the AltaPay Payments App to configure the gateway, and access various gateway features directly in Shopify.
+You can use the AltaPay Payments Apps to configure the gateway, and access various gateway features directly in Shopify.
 
-Installing and configuring it is very straightforward. You simply take the following steps:
+Installing and configuring is very straightforward. You simply take the following steps:
 
 1. Install the app
 2. Configure the app
@@ -17,13 +17,16 @@ New versions of the app will be released as new features are added and bugs are 
 
 # Installation
 
-Installing this app will enable the web shop to handle card transactions through AltaPay's gateway.
+Installing this app will enable the web shop to handle payments through AltaPay's gateway.
 
 **Table of Contents**
 
  - [Prerequisites](#prerequisites)
 
  - [Installation Link](#installation-link)
+  
+    * [App with Multiple Payment Options](#app-with-mutiple-payment-options)
+    * [Individual app for MobilePay](#individual-app-for-mobilepay)
 
  - [Configuration](#configuration) 
   
@@ -64,13 +67,21 @@ be provided by AltaPay.
     * Terminal
     * Gateway
 
-# Installation Link
+# Installation Links
 
-You can install the app directly by following the below installation link
+You can install the app directly by following the below installation links for each app
 
-```
-https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
-```
+* ### App with Multiple Payment Options
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
+  ```
+
+* ### Individual app for MobilePay
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F20381697
+  ```
 
 # Configuration
 
@@ -81,30 +92,30 @@ When you first open the app from the admin page in Shopify, you need to configur
 1. Navigate to the **Admin** page, using the URL.
 2. Select the **Settings** button in the bottom left of the screen.
 
-![shopify_settings_menu](/Docs/configuration/shopify_settings_menu_updated.png)
+    ![shopify_settings_menu](/Docs/configuration/shopify_settings_menu_updated.png)
 
 3. Go to **Payments**
 
 4. Scroll down to **Supported payment methods** and do one of the following:
 - If you see AltaPay, click on the **Manage** button beside it. 
 
-![shopify_manage_AltaPay_Omni](/Docs/configuration/altapay_supported_payment_methods.jpg)
+    ![shopify_manage_AltaPay_Omni](/Docs/configuration/altapay_supported_payment_methods.jpg)
 
 - If AltaPay is not displayed, select the **Add payment methods** button, and select AltaPay from the list
 5. Select the payment icons that you want to display with AltaPay payment method on checkout page.
 
-![shopify_select_icons](/Docs/configuration/shopify_select_icons.jpg)
+    ![shopify_select_icons](/Docs/configuration/shopify_select_icons.jpg)
 
-**Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
+    **Note:** Maximum of 4 icons will be displayed or ‘and more’ will be displayed in the checkout.
 
-![altapay_on_checkout](/Docs/configuration/altapay_on_checkout.jpg)
+    ![altapay_on_checkout](/Docs/configuration/altapay_on_checkout.jpg)
 
 8. You may choose to enable test mode by selecting the checkbox at the bottom of the screen.
 **If test mode is enabled, all transactions, including those made using the Production tab, will go to the test gateway. No actual financial transactions will take place.**
 
-If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
+    If linking the account to testgateway.altapaysecure.com, then ‘TEST MODE’ must be enabled to avoid error in checkout! 
 
-![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.jpg)
+    ![shopify_enable_test_mode](/Docs/configuration/shopify_enable_test_mode.jpg)
 
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Payments App for Shopify](#configuring-the-altapay-omni-app-for-shopify) for more details.
@@ -134,7 +145,7 @@ Having configured the AltaPay payments, you now need to configure the app.
 6. Enter the username and password AltaPay has given to you.
 7. If you are working in the Production account, specify the AltaPay Omni-Channel URL.
 
-![shopify_gateway_config](/Docs/configuration/shopify_gateway_config.jpg)
+    ![shopify_gateway_config](/Docs/configuration/shopify_gateway_config.jpg)
 
 8. Save the details.
 9. Next, you need to configure the payment methods (terminals). See [Configuring the Payment Methods](#configuring-the-payment-methods) for more details.
@@ -147,25 +158,38 @@ Having configured the AltaPay payments, you now need to configure the app.
 > 
 > - The username and password for your AltaPay Omni-Channel account. These are provided by AltaPay.
 > - The URL for your Shopify shop's admin page.
-(It is typically in the format **https://<shop_name>.myshopify.com/admin**)
 
-1. Navigate to the Admin page, using the URL.
+1. Navigate to the app page.
 2. You will see that there are two tabs on this page:
 
 >- **Test** for configuring a test account which can be used to test the gateway. No actual financial transactions will be made via this account.
 >- **Production** for configuring the production account, i.e. the account which will enable actual financial transactions. **If test mode is enabled in the AltaPay Omni gateway, all transactions, including those done in the Production tab, will go to the test gateway and no actual transactions will take place.**
 
 3. Make sure that you are working in the correct tab.
-4. You will see a list of payment methods configured by AltaPay according to the agreement you have made with us.
+4. You will see a list of payment methods configured by AltaPay according to the agreement you have made with us. 
 
-![shopify_config_pm_1](/Docs/configuration/shopify_config_pm_1.png)
+    > **Note**
+    > 
+    > * If you are configuring the payment method for individual app, you will see detail page instead of payment methods list. 
+    > * Skip point 5 and 6 for individual app.
 
-The default names of the payment methods come from the title the payment method has been given by AltaPay.
+  
+    ![shopify_config_pm_1](/Docs/configuration/shopify_config_pm_1.png)
+
+    The default names of the payment methods come from the title the payment method has been given by AltaPay.
 
 5. Click on a given terminal/payment method to change the configuration.
 6. The payment method details are displayed. Configure the details as required, using the notes and illustration for guidance.
 
-![config_terminals](/Docs/configuration/config_terminals.jpg)
+    ![config_terminals](/Docs/configuration/config_terminals.jpg)
+
+7. Configuration payment method for individual apps.
+
+    > **Note**
+    > 
+    > Skip this point if you are configuring the app with Multiple Payment Options 
+
+    ![payment_methods_individual_app](/Docs/configuration/payment_methods_individual_app.png)
 
 >- Complete the details:
 
@@ -209,7 +233,7 @@ A customer telephone number is required when using Klarna.
 1. In Shopify, navigate to Settings > Checkout.
 2. Go to the <strong>Form Options</strong> section, and mark the <strong>Shipping address phone number</strong> in the checkout flow as **“Required”**.
 
-![shopify_klarna](/Docs/configuration/shopify_klarna.png)
+    ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
 
 # Styling 
 
@@ -258,7 +282,12 @@ In the <b>Payment Form</b> page:
 8. Click on <b>Save</b> to save the details, or <b>Reset HTML to Default</b> to restore the default settings.
 
 ## Enable Credit Card Form by Default on Checkout
-  
+
+>**Note**
+>
+> This is only applicable if you are configuring the AltaPay app with Multiple Payment Options.
+> Skip this section for individual app types.
+
 **Display the credit card inputs by default on the terminal selection page**
 
 ![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
@@ -358,7 +387,7 @@ In order to reconcile payments on AltaPay please follow the steps below:
 
 **Sample AltaPay Gateway CSV:**
 
- ![funding_list_csv](Docs/reconciliation/funding_list_csv.png)
+![funding_list_csv](Docs/reconciliation/funding_list_csv.png)
 
 **Shopify exported order CSV:**
 
