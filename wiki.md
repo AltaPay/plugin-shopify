@@ -229,15 +229,6 @@ Having configured the AltaPay payments, you now need to configure the app.
 
 **Requirements for Specific Payment Methods**
 
-## Klarna
-
-A customer telephone number is required when using Klarna.
-
-1. In Shopify, navigate to Settings > Checkout.
-2. Go to the <strong>Form Options</strong> section, and mark the <strong>Shipping address phone number</strong> in the checkout flow as **“Required”**.
-
-    ![shopify_klarna](/Docs/configuration/shopify_klarna.png)
-
 # Styling 
 
 ### Styling the Payment Pages in the AltaPay Payments App for Shopify
