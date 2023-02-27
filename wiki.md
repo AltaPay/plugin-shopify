@@ -67,6 +67,12 @@ be provided by AltaPay.
     * Terminal
     * Gateway
 
+> **Note**
+>
+> For the successful installation and configuration:
+> * Make sure that the browser cookies are enabled.
+> * If you are using an Ad Blocker, try to disable it before app installation and configuration.
+
 # Installation Links
 
 You can install the apps directly using the below respective installation links:
