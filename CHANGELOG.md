@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [app-1.2.0]
+## [app-1.2.1]
 
 - Add support for the MobilePay individual app.
 - Redirect to the payment page by default if the merchant has only one active terminal.
