@@ -1,14 +1,16 @@
 # AltaPay for Shopify
 
-## Shopify App Store link
+## Shopify App Store links
 
-https://apps.shopify.com/altapay-payments-app
+* ### App with Mutiple Payment Options
+    https://apps.shopify.com/altapay-payments-app
+
+* ### Individual app for MobilePay
+    https://apps.shopify.com/altapay-mobilepay
 
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).
-
-**Note:** For HPSDK Payment App ``[deprecated]`` integrations please see [wiki-HPSDK.md](https://github.com/AltaPay/plugin-shopify/blob/main/wiki-HPSDK.md)
 
 ## Change log
 
