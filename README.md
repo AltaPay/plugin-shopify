@@ -5,6 +5,9 @@
 * ### App with Mutiple Payment Options
     https://apps.shopify.com/altapay-payments-app
 
+* ### Individual app for Card Payments
+    https://apps.shopify.com/altapay-cc
+
 * ### Individual app for MobilePay
     https://apps.shopify.com/altapay-mobilepay
 

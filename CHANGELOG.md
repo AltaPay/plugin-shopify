@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [app-1.2.2.1]
 
 - Add support for the Vipps individual app.
+- Add support for the Card Payments individual app.
 
 ## [app-1.2.2]
 
