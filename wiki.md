@@ -83,10 +83,22 @@ You can install the apps directly using the below respective installation links:
   https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
   ```
 
+* ### Individual app for Card Payments
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F25133057
+  ```
+
 * ### Individual app for MobilePay
 
   ```
   https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F20381697
+  ```
+
+* ### Individual app for Vipps
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F25657345
   ```
 
 # Configuration
