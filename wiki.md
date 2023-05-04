@@ -42,6 +42,8 @@ Installing these apps will enable the web shop to handle payments through AltaPa
 
     * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
 
+    * [Customize checkout page](#customize-checkout-page) 
+
  - [Using the AltaPay Payments App for Shopify](#using-the-altapay-payments-app-for-shopify)
 
  - [Viewing Payment Details](#viewing-payment-details)
