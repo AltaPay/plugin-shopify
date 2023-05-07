@@ -26,7 +26,9 @@ Installing these apps will enable the web shop to handle payments through AltaPa
  - [Installation Links](#installation-links)
   
     * [App with Multiple Payment Options](#app-with-multiple-payment-options)
+    * [Individual app for Card Payments](#individual-app-for-card-payments)
     * [Individual app for MobilePay](#individual-app-for-mobilepay)
+    * [Individual app for Vipps](#individual-app-for-vipps)
 
  - [Configuration](#configuration) 
   
@@ -41,6 +43,8 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Styling the Payment Pages in the AltaPay Payments App for Shopify](#styling-the-payment-pages-in-the-altapay-payments-app-for-shopify)
 
     * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
+
+    * [Customize checkout page](#customize-checkout-page) 
 
  - [Using the AltaPay Payments App for Shopify](#using-the-altapay-payments-app-for-shopify)
 
@@ -298,7 +302,7 @@ In the <b>Payment Form</b> page:
 
 8. Click on <b>Save</b> to save the details, or <b>Reset HTML to Default</b> to restore the default settings.
 
-## Enable Credit Card Form by Default on Checkout
+### Enable Credit Card Form by Default on Checkout
 
   >**Note**
   >
@@ -320,6 +324,14 @@ Login to the Shopify admin section.
 - Click on the **Settings** tab.
 - Scroll to **Show credit card form by default** section and click on **Activate** button and **Save** the
 settings.
+
+### Customize checkout page
+
+While checkout customizations are typically outside the scope of payments apps, there may be situations where customizing the checkout page can enhance the overall customer checkout experience or meet specific regional requirements.
+
+If you want to customize your shop checkout page, you can explore the various apps available on the Shopify app store for checout customizations at the below link.
+
+https://apps.shopify.com/collections/customize-checkout-with-apps
 
 # Using the AltaPay Payments App for Shopify
 
