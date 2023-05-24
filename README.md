@@ -14,6 +14,9 @@
 * ### Individual app for Vipps
     https://apps.shopify.com/altapay-vipps
 
+* ### Individual app for Klarna
+    https://apps.shopify.com/altapay-klarna
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).
