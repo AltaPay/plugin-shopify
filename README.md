@@ -1,4 +1,36 @@
 # AltaPay for Shopify
+## Supported Payment Methods & Functionalities
+<table>
+<tr><td>
+
+| Functionalities	        | Support       |
+| :------------------------ | :-----------: |
+| Reservation               | &check;       |
+| Capture                   | &check;       |
+| Instant Capture           | &check;       |
+| Multi Capture             | &cross;       |
+| Recurring / Subscription  | &cross;       |
+| Release                   | &check;       |
+| Refund                    | &check;       |
+| Multi Refund              | &check;       |
+| 3D Secure                 | &check;       |
+| Fraud prevention (other)  | &check;       |
+| Reconciliation            | &check;       |
+| MO/TO                     | &cross;       |
+
+</td><td valign="top">
+ 
+| Payment Methods	  | Support       |
+| ------------------- | :-----------: |
+| Card                | &check;       |
+| Invoice             | &check;       |
+| ePayments           | &check;       |
+| Bank-to-bank        | &check;       |
+| Interbank           | &check;       |
+| Cash Wallet         | &check;       |
+| Mobile Wallet       | &check;       |
+
+</td></tr> </table>
 
 ## Shopify App Store links
 
