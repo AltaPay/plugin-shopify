@@ -14,7 +14,7 @@
 | Refund                    | &check;       |
 | Multi Refund              | &check;       |
 | 3D Secure                 | &check;       |
-| Fraud prevention (other)  | &cross;       |
+| Fraud prevention (other)  | &check;       |
 | Reconciliation            | &check;       |
 | MO/TO                     | &cross;       |
 
