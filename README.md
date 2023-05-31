@@ -9,7 +9,7 @@
 | Capture                   | &check;       |
 | Instant Capture           | &check;       |
 | Multi Capture             | &cross;       |
-| Recurring / Subscription  | &cross;       |
+| Recurring / Unscheduled   | &cross;       |
 | Release                   | &check;       |
 | Refund                    | &check;       |
 | Multi Refund              | &check;       |
