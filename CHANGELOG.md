@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.2.4]
+
+- Add support for the iDEAL individual app.
+
 ## [app-1.2.3.1]
 
 - Add support for the Klarna individual app.
