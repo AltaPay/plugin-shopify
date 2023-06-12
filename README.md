@@ -49,6 +49,9 @@
 * ### Individual app for Klarna
     https://apps.shopify.com/altapay-klarna
 
+* ### Individual app for iDEAL
+    https://apps.shopify.com/altapay-ideal
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).
