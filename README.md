@@ -5,20 +5,22 @@
 * ### App with Mutiple Payment Options
     https://apps.shopify.com/altapay-payments-app
 
-* ### Individual app for Card Payments
-    https://apps.shopify.com/altapay-cc
+* ### Individual apps
 
-* ### Individual app for MobilePay
-    https://apps.shopify.com/altapay-mobilepay
+    * #### Card Payments app
+        https://apps.shopify.com/altapay-cc
 
-* ### Individual app for Vipps
-    https://apps.shopify.com/altapay-vipps
+    * #### MobilePay
+        https://apps.shopify.com/altapay-mobilepay
 
-* ### Individual app for Klarna
-    https://apps.shopify.com/altapay-klarna
+    * #### Vipps
+        https://apps.shopify.com/altapay-vipps
 
-* ### Individual app for iDEAL
-    https://apps.shopify.com/altapay-ideal
+    * #### Klarna
+        https://apps.shopify.com/altapay-klarna
+
+    * #### iDEAL
+        https://apps.shopify.com/altapay-ideal
 
 ## Installation
 
