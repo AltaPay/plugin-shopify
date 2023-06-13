@@ -86,9 +86,9 @@ be provided by AltaPay.
 
 ## App Types
 
-AltaPay offers two types of apps for Shopify payments. The first one is the app that shows a single payment option with the title "AltaPay - Multiple Payment Options" on the Shopify checkout page and the customer will see all the available options on the next page.
+AltaPay offers two types of apps for Shopify payments. The first one shows a single payment option with the title "AltaPay - Multiple Payment Options" on the Shopify checkout page and the customer will see all the available options on the next page.
 
-The second one is to show each payment method individually on the Shopify checkout page and once the customer selects that he will be redirected to a sepecific payment method. That also reduces one step as compared to the above app types and increases the conversion rate as well.
+The second one is to show each payment method individually on the Shopify checkout page. Once customer select that, he will be redirected to a sepecific payment method. That also reduces one step as compared to the above app type and increases the conversion rate as well.
 
 Below are sections that include the sample screenshots of each app type.
 
