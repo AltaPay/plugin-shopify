@@ -7,7 +7,7 @@
 
 * ### Individual apps
 
-    * #### Card Payments app
+    * #### Card Payments
         https://apps.shopify.com/altapay-cc
 
     * #### MobilePay

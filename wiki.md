@@ -25,8 +25,8 @@ Installing these apps will enable the web shop to handle payments through AltaPa
 
  - [App Types](#app-types)
   
-    * [Multiple Payment Options app](#multiple-payment-options-app)
-    * [Individual Payment option app](#individual-payment-option-app)
+    * [Multiple Payment Options App](#multiple-payment-options-app)
+    * [Individual Payment option App](#individual-payment-option-app)
 
  - [Installation Links](#installation-links)
   
@@ -88,17 +88,18 @@ be provided by AltaPay.
 
 AltaPay offers two types of apps for Shopify payments. The first one shows a single payment option with the title "AltaPay - Multiple Payment Options" on the Shopify checkout page and the customer will see all the available options on the next page.
 
-The second one is to show each payment method individually on the Shopify checkout page. Once customer select that, he will be redirected to a sepecific payment method. That also reduces one step as compared to the above app type and increases the conversion rate as well.
+The second one is a separate app for each payment method individually shown on the Shopify checkout page. 
+Once a customer selects that, he will be redirected to the respective payment method. This also reduces one step as compared to the above app type and increases the conversion rate as well.
 
 Below are sections that include the sample screenshots of each app type.
 
-  * ### Multiple Payment Options app
+  * ### Multiple Payment Options App
 
     ![shopify_settings_menu](/Docs/app_types/multi_app_checkout.jpg)
 
     ![shopify_settings_menu](/Docs/app_types/multi_payment_page.jpg)
 
-  * ### Individual Payment option app
+  * ### Individual Payment option App
 
     ![shopify_settings_menu](/Docs/app_types/individual_app_checkout.jpg)
 
