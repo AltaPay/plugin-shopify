@@ -15,13 +15,18 @@ We will take you through each of the steps in detail in the following sections, 
 
 New versions of the app will be released as new features are added and bugs are fixed.
 
-# Installation
+## Installation
 
 Installing these apps will enable the web shop to handle payments through AltaPay's gateway.
 
 **Table of Contents**
 
  - [Prerequisites](#prerequisites)
+
+ - [App Types](#app-types)
+  
+    * [Multiple Payment Options App](#multiple-payment-options-app)
+    * [Individual Payment option App](#individual-payment-option-app)
 
  - [Installation Links](#installation-links)
   
@@ -58,7 +63,7 @@ Installing these apps will enable the web shop to handle payments through AltaPa
   
  - [Reconcile Orders](#reconcile-orders)
 
-# Prerequisites
+## Prerequisites
 
 Before configuring the app, you need the below information. These can
 be provided by AltaPay.
@@ -79,7 +84,26 @@ be provided by AltaPay.
 > * Make sure that the browser cookies are enabled.
 > * If you are using an Ad Blocker, try to disable it before app installation and configuration.
 
-# Installation Links
+## App Types
+
+AltaPay offers two types of apps for Shopify payments. The first one shows a single payment option with the title "AltaPay - Multiple Payment Options" on the Shopify checkout page and the customer will see all the available options on the next page.
+
+The second one is a separate app for each payment method individually shown on the Shopify checkout page. 
+Once a customer selects that, he will be redirected to the respective payment method. This also reduces one step as compared to the above app type and increases the conversion rate as well.
+
+Below are sections that include the sample screenshots of each app type.
+
+  * ### Multiple Payment Options App
+
+    ![shopify_settings_menu](/Docs/app_types/multi_app_checkout.jpg)
+
+    ![shopify_settings_menu](/Docs/app_types/multi_payment_page.jpg)
+
+  * ### Individual Payment option App
+
+    ![shopify_settings_menu](/Docs/app_types/individual_app_checkout.jpg)
+
+## Installation Links
 
 You can install the apps directly using the below respective installation links:
 
@@ -119,9 +143,9 @@ You can install the apps directly using the below respective installation links:
   https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F29229057
   ```
 
-# Configuration
+## Configuration
 
-## Configuring the checkout options
+### Configuring the checkout options
 
 When you first open the app from the admin page in Shopify, you need to configure the checkout options.
 
@@ -156,7 +180,7 @@ When you first open the app from the admin page in Shopify, you need to configur
 9. Click **Activate** when you have completed the details.
 10. Next, you need to configure the app. See [Configuring the AltaPay Payments App](#configuring-the-altapay-omni-app) for more details.
 
-## Configuring the AltaPay Payments App
+### Configuring the AltaPay Payments App
 
 Having configured the AltaPay payments, you now need to configure the app.
 
@@ -186,7 +210,7 @@ Having configured the AltaPay payments, you now need to configure the app.
 8. Save the details.
 9. Next, you need to configure the payment methods (terminals). See [Configuring the Payment Methods](#configuring-the-payment-methods) for more details.
 
-## Configuring the Payment Methods
+### Configuring the Payment Methods
 
 > **Prerequisites**
 > 
@@ -265,7 +289,7 @@ Having configured the AltaPay payments, you now need to configure the app.
 
 **Requirements for Specific Payment Methods**
 
-# Styling 
+## Styling 
 
 ### Styling the Payment Pages in the AltaPay Payments App for Shopify
 
@@ -347,9 +371,9 @@ If you want to customize your shop checkout page, you can explore the various ap
 
 https://apps.shopify.com/collections/customize-checkout-with-apps
 
-# Using the AltaPay Payments App for Shopify
+## Using the AltaPay Payments App for Shopify
 
-## Viewing Payment Details
+### Viewing Payment Details
 
 You can view details on payments in the Shopify app, including payment method, fraud information, payment options, and, if relevant, gift card details.
 
@@ -360,7 +384,7 @@ You can view details on payments in the Shopify app, including payment method, f
 5. Click on **Information from the gateway** to see the gateway Order ID.
 6. Copy the payment ID (remove any dashes and underscores in it) and search the order on the gateway side.
 
-# Environments
+## Environments
 
 **Switching between production and test environments**
 
@@ -379,7 +403,7 @@ If you want to test the gateway in the test environment and switch to the produc
     > 
     > Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
-# Making a test order
+## Making a test order
 
 In order to place an order and pay with the AltaPay Omni-Channel test gateway, you should first ensure the test environment is properly set up:
 
@@ -407,7 +431,7 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
   > The payment can be released, captured and/or refunded as well.
 
 
-# Reconcile Orders
+## Reconcile Orders
 In order to reconcile payments on AltaPay please follow the steps below:
 
 1. Navigate to the **Admin** page, using the URL.
