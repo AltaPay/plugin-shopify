@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.2.6]
+
+- Add support for the ViaBill individual app.
+- Redirect merchant to payment method page after app onboarding.
+
 ## [app-1.2.4]
 
 - Add support for the iDEAL individual app.

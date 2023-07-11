@@ -22,6 +22,9 @@
     * #### iDEAL
         https://apps.shopify.com/altapay-ideal
 
+    * #### ViaBill
+        https://apps.shopify.com/altapay-viabill
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).
