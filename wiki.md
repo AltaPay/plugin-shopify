@@ -37,6 +37,7 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Individual app for Klarna](#individual-app-for-klarna)
     * [Individual app for iDEAL](#individual-app-for-ideal)
     * [Individual app for ViaBill](#individual-app-for-viabill)
+    * [Individual app for Swish](#individual-app-for-swish)
 
  - [Configuration](#configuration) 
   
@@ -148,6 +149,12 @@ You can install the apps directly using the below respective installation links:
 
   ```
   https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30998529
+  ```
+
+* ### Individual app for Swish
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F28016641
   ```
 
 ## Configuration
