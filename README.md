@@ -57,6 +57,9 @@
     * #### ViaBill
         https://apps.shopify.com/altapay-viabill
 
+    * #### Swish
+        https://apps.shopify.com/altapay-swish
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).
