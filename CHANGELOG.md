@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.2.7]
+
+- Add support for the Swish individual app.
+- Fix Swish app payment form styling issues.
+- Add checksum validation functionality.
+
 ## [app-1.2.6]
 
 - Add support for the ViaBill individual app.
