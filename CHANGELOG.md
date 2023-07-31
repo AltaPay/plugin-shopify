@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.2.8]
+
+- Fix: Cookies conflict when installing multiple apps simultaneously
+- Fix notification errors in the app configuration pages
+
 ## [app-1.2.7]
 
 - Add support for the Swish individual app.
