@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.2.9]
+ - Fix: Duplicate Klarna payment not releasing when auto-capture is enabled.
+
 ## [app-1.2.8]
 
 - Fix: Cookies conflict when installing multiple apps simultaneously.
