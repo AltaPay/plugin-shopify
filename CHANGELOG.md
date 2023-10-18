@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [app-1.3.0]
  - Add a new design option with a modern look for the payment form.
  - Add terminal logo for Bancontact & Bank payments.
+ - Fix styling for redirect page.
 
 ## [app-1.2.9]
  - Fix: Duplicate Klarna payment not releasing when auto-capture is enabled.
