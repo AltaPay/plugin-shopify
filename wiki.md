@@ -53,6 +53,8 @@ Installing these apps will enable the web shop to handle payments through AltaPa
 
     * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
 
+    * [Checkout form styling](#checkout-form-styling)
+
     * [Customize checkout page](#customize-checkout-page) 
 
  - [Using the AltaPay Payments App for Shopify](#using-the-altapay-payments-app-for-shopify)
@@ -361,10 +363,10 @@ In the <b>Payment Form</b> page:
   > This is only applicable if you are configuring the AltaPay app with Multiple Payment Options.
   > Skip this section for individual app types.
 
-**Display the credit card inputs by default on the terminal selection page**
+  **Display the credit card inputs by default on the terminal selection page**
 
-![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
-  
+  ![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
+      
 To display the credit card inputs by default on the terminal selection page follow the below steps.
 Login to the Shopify admin section.
   
@@ -376,6 +378,39 @@ Login to the Shopify admin section.
 - Click on the **Settings** tab.
 - Scroll to **Show credit card form by default** section and click on **Activate** button and **Save** the
 settings.
+
+### Checkout form styling
+  
+You can change the `Checkout form style` by following the below mentioned steps.
+
+Login to the Shopify admin section.
+
+- Navigate to the **Admin** page, using the URL.
+- Select **Settings** and then **Payments**.
+- Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+- Click on **Manage** button from **Account status** section.
+- This will redirect you to **AltaPay Payments App** configuration page.
+- Click on the **Settings** tab.
+- Scroll to **Checkout Page Settings** section.
+- Choose `Checkout form style` option from the dropdown and **Save** the
+settings.
+
+  ![checkout_form_style](/Docs/configuration/checkout_form_style.png)
+
+- Frontend view with `Checkout` style
+
+  ![checkout](/Docs/checkout_style/checkout.png)
+
+- Frontend view with `Legacy` style
+
+  ![shopify_klarna](/Docs/checkout_style/legacy.png)
+
+  >**Note**
+  > This notice is intended exclusively for current merchants. If you are configuring the app for the first time, please ignore this section.
+  >
+  > - Do not include any classes or attributes within the `<body>` tag.
+  > - If you have added any classes to the `<body>` tag, the `checkout` design option may not render correctly. Remove any classes or attributes from the `<body>` tag and save the settings.
+  > - Be sure to reset the HTML to default by clicking `Reset HTML to default` button.
 
 ### Customize checkout page
 
