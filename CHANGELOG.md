@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.1]
+
+- Add support for the Bancontact individual app.
+
 ## [app-1.3.0]
  - Add a new design option with a modern look for the payment form.
  - Add terminal logo for Bancontact & Bank payments.
