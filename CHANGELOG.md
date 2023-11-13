@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.2]
+
+ - Add support for Open Banking (Using Finshark).
+ - On cancel or abandon payments, redirect buyers back to Shopify’s checkout if the merchant has only a single payment method enabled.
+
 ## [app-1.3.1]
 
 - Add support for the Bancontact individual app.
