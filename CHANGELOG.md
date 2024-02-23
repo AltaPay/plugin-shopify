@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.3]
+
+- Add support for Twint and SEPA.
+- Update logo for iDEAL and ViaBill.
+
 ## [app-1.3.2]
 
  - Add support for Open Banking (Using Finshark).
