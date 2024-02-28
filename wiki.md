@@ -39,6 +39,7 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Individual app for ViaBill](#individual-app-for-viabill)
     * [Individual app for Swish](#individual-app-for-swish)
     * [Individual app for Bancontact](#individual-app-for-bancontact)
+    * [Individual app for Bank Payments](#individual-app-for-bank-payments)
 
  - [Configuration](#configuration) 
   
