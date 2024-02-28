@@ -166,6 +166,12 @@ You can install the apps directly using the below respective installation links:
   https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F41353217
   ```
 
+* ### Individual app for Bank Payments
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F45875201
+  ```
+
 ## Configuration
 
 ### Configuring the checkout options
