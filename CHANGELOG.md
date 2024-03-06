@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.4]
+
+- Add support for the Bank Payments individual app.
+- Add support for Trustly.
+
 ## [app-1.3.3]
 
 - Add support for Twint and SEPA.
