@@ -66,6 +66,9 @@
     * #### Bank Payments
         https://apps.shopify.com/altapay-bank-payments
 
+    * #### Payconiq
+        https://apps.shopify.com/altapay-payconiq
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).
