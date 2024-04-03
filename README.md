@@ -69,6 +69,9 @@
     * #### Payconiq
         https://apps.shopify.com/altapay-payconiq
 
+    * #### Twint
+        https://apps.shopify.com/altapay-twint
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).

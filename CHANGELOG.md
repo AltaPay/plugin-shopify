@@ -4,10 +4,11 @@ All notable changes to this project will be documented in this file.
 ## [app-1.3.5]
 
 - Mark the order as successful if the reservation amount is greater than 0 when evaluating the callback response.
+- Add support for the `Twint` individual app.
 
 ## [app-1.3.4.1]
 
-- Add support for the Payconiq individual app.
+- Add support for the `Payconiq` individual app.
 
 ## [app-1.3.4]
 
