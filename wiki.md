@@ -41,6 +41,7 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Individual app for Bancontact](#individual-app-for-bancontact)
     * [Individual app for Bank Payments](#individual-app-for-bank-payments)
     * [Individual app for Payconiq](#individual-app-for-payconiq)
+    * [Individual app for Twint](#individual-app-for-twint)
 
  - [Configuration](#configuration) 
   
@@ -178,6 +179,12 @@ You can install the apps directly using the below respective installation links:
 
   ```
   https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F51838977
+  ```
+
+* ### Individual app for Twint
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F53936129
   ```
 
 ## Configuration
