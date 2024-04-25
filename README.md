@@ -75,6 +75,9 @@
     * #### Sepa
         https://apps.shopify.com/altapay-sepa
 
+    * #### Trustly
+        https://apps.shopify.com/altapay-trustly
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).

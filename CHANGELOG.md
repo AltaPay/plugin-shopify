@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.5.2]
+
+- Add support for the `Trustly` individual app.
+
 ## [app-1.3.5.1]
 
 - Add support for the `Sepa` individual app.
