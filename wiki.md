@@ -473,7 +473,7 @@ You can view details on payments in the Shopify app, including payment method, f
 3. Select the order you want to view.
 4. In the **Timeline** section, click on the AltaPay's payment link.
 5. Click on **Information from the gateway** to see the gateway Order ID.
-6. Copy the payment ID (remove any dashes and underscores in it) and search the order on the gateway side.
+6. Copy the payment ID and search the order on the gateway side.
 
 ## Environments
 
