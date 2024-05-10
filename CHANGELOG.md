@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.6]
+
+- Configure terminal logo automatically.
+- Handle session not found exception during app installation.
+- Fix: Customers are not redirected to checkout on cancel payment when only one payment option available.
+- Send the Shopify Payment ID as part of `transaction_info[ShopifyPaymentID]` to make it searchable on the gateway side.
+
 ## [app-1.3.5.2]
 
 - Add support for the `Trustly` individual app.
