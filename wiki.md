@@ -44,6 +44,7 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Individual app for Twint](#individual-app-for-twint)
     * [Individual app for Sepa](#individual-app-for-sepa)
     * [Individual app for Trustly](#individual-app-for-trustly)
+    * [Individual app for Przelewy24](#individual-app-for-przelewy24)
 
  - [Configuration](#configuration) 
   
@@ -199,6 +200,12 @@ You can install the apps directly using the below respective installation links:
 
   ```
   https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F55050241
+  ```
+
+* ### Individual app for Przelewy24
+
+  ```
+  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30507009
   ```
 
 ## Configuration
