@@ -78,6 +78,9 @@
     * #### Trustly
         https://apps.shopify.com/altapay-trustly
 
+    * #### Przelewy24
+        https://apps.shopify.com/altapay-p24
+
 ## Installation
 
 The whole installation and configuration process is described in our [docs](https://github.com/AltaPay/plugin-shopify/wiki).

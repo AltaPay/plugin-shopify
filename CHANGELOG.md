@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.6.1]
+
+- Add support for the `Przelewy24` individual app.
+
 ## [app-1.3.6]
 
 - Configure terminal logo automatically.
