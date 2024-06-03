@@ -58,6 +58,8 @@ Installing these apps will enable the web shop to handle payments through AltaPa
 
     * [Styling the Payment Pages in the AltaPay Payments App for Shopify](#styling-the-payment-pages-in-the-altapay-payments-app-for-shopify)
 
+    * [Change the default logo on the banner](#change-the-default-logo-on-the-banner)
+
     * [Enable Credit Card Form by Default on Checkout](#enable-credit-card-form-by-default-on-checkout) 
 
     * [Checkout form styling](#checkout-form-styling)
@@ -108,7 +110,7 @@ Below are sections that include the sample screenshots of each app type.
 
     ![shopify_settings_menu](/Docs/app_types/multi_app_checkout.jpg)
 
-    ![shopify_settings_menu](/Docs/app_types/multi_payment_page.jpg)
+    ![checkout](/Docs/checkout_style/checkout.png)
 
   * ### Individual Payment option App
 
@@ -221,7 +223,7 @@ When you first open the app from the admin page in Shopify, you need to configur
 
 3. Go to **Payments**
 
-4. Scroll down to **Supported payment methods** and do one of the following:
+4. Scroll down to **Additional payment methods** and do one of the following:
 - If you see AltaPay, click on the **Manage** button beside it. 
 
     ![shopify_manage_AltaPay_Omni](/Docs/configuration/altapay_supported_payment_methods.jpg)
@@ -259,7 +261,7 @@ Having configured the AltaPay payments, you now need to configure the app.
 
 1. Navigate to the **Admin** page, using the URL.
 2. Select **Settings** and then **Payments**.
-3. Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+3. Scroll down to **Additional payment methods** and click **Manage** link besides AltaPay payment method.
 4. Click on **Manage** button from **Account status** section.
 5. This will redirect you to **AltaPay Payments App** configuration page.
 6. You will see that there are two tabs on this page, even if you do not have a production account:
@@ -372,7 +374,7 @@ You can style the **Select Payment Method** and **Payment Form** pages within th
 
 1. Navigate to the **Admin** page, using the URL.
 2. Select **Settings** and then **Payments**.
-3. Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+3. Scroll down to **Additional payment methods** and click **Manage** link besides AltaPay payment method.
 4. Click on **Manage** button from **Account status** section.
 5. This will redirect you to **AltaPay Payments App** configuration page.
 6. Select **Settings** at the top of the window.
@@ -405,6 +407,21 @@ In the <b>Payment Form</b> page:
 
 8. Click on <b>Save</b> to save the details, or <b>Reset HTML to Default</b> to restore the default settings.
 
+### Change the default logo on the banner
+
+By default, you will see the AltaPay logo on the banner of the payment pages. Follow the steps below to replace it with your own logo.
+
+1. Navigate to the **Admin** page, using the URL.
+2. Select **Settings** and then **Payments**.
+3. Scroll down to **Additional payment methods** and click AltaPay payment method.
+4. Click on **Manage** from **More actions** dropdown.
+5. This will redirect you to **AltaPay Payments App** configuration page.
+6. Select **Settings** at the top of the window.
+7. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
+8. Search for `/img/logo-altapay.png` and replace it with your own logo URL.
+    ![change_default_logo](/Docs/configuration/change_default_logo.png)
+9. Click **Save**
+
 ### Enable Credit Card Form by Default on Checkout
 
   >**Note**
@@ -414,14 +431,14 @@ In the <b>Payment Form</b> page:
 
   **Display the credit card inputs by default on the terminal selection page**
 
-  ![shopify_klarna](/Docs/enable_cc-by_default/front_end.jpg)
+  ![checkout](/Docs/checkout_style/checkout.png)
       
 To display the credit card inputs by default on the terminal selection page follow the below steps.
 Login to the Shopify admin section.
   
 -  Navigate to the **Admin** page, using the URL.
 -  Select **Settings** and then **Payments**.
--  Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+-  Scroll down to **Additional payment methods** and click **Manage** link besides AltaPay payment method.
 -  Click on **Manage** button from **Account status** section.
 -  This will redirect you to **AltaPay Payments App** configuration page.
 - Click on the **Settings** tab.
@@ -436,7 +453,7 @@ Login to the Shopify admin section.
 
 - Navigate to the **Admin** page, using the URL.
 - Select **Settings** and then **Payments**.
-- Scroll down to **Supported payment methods** and click **Manage** link besides AltaPay payment method.
+- Scroll down to **Additional payment methods** and click **Manage** link besides AltaPay payment method.
 - Click on **Manage** button from **Account status** section.
 - This will redirect you to **AltaPay Payments App** configuration page.
 - Click on the **Settings** tab.
@@ -490,7 +507,7 @@ If you want to test the gateway in the test environment and switch to the produc
 
 -	Change the account details on the gateway, and set the test flag accordingly:
     >1.	Go to Settings > Payments.
-    >2. Scroll down to **Supported payment methods**.
+    >2. Scroll down to **Additional payment methods**.
     >3. Click **Manage** where it says “AltaPay”.
     
     <br>
@@ -509,7 +526,7 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
     <br>
 
   >1. Go to Settings > Payment providers.
-  >2. Scroll down to **Supported payment methods**.
+  >2. Scroll down to **Additional payment methods**.
   >3. Click **Manage** where it says “AltaPay”.
 
     <br>
