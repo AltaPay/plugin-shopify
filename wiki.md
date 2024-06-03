@@ -419,6 +419,7 @@ By default, you will see the AltaPay logo on the banner of the payment pages. Fo
 6. Select **Settings** at the top of the window.
 7. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
 8. Search for `/img/logo-altapay.png` and replace it with your own logo URL.
+
     ![change_default_logo](/Docs/configuration/change_default_logo.png)
 9. Click **Save**
 
