@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.7]
+
+- Fix: When resolving payments on mobile devices, open the browser that the user used during initialization in case of a browser mismatch.
+
 ## [app-1.3.6.1]
 
 - Add support for the `Przelewy24` individual app.
