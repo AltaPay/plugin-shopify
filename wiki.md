@@ -360,7 +360,7 @@ Having configured the AltaPay payments, you now need to configure the app.
 
 ### Set Shopify Order ID as reconciliation identifier - Optional
 
-By default, the payment ID is used as the reconciliation identifier on AltaPay. If you want to use the Shopify order ID as the reconciliation identifier, please follow the steps below.
+By default, the Shopify payment ID is used as the reconciliation identifier on AltaPay. If you want to use the Shopify order ID as the reconciliation identifier, please follow the steps below.
 
 #### Create Order creation webhook
 
