@@ -373,12 +373,32 @@ By default, the payment ID is used as the reconciliation identifier on AltaPay. 
 
 4. Enter the information as below:
 
-      | Field                        | Value                                                     |
-      |------------------------------|-----------------------------------------------------------|
-      | Event                        | Order creation                                            |
-      | Format                       | JSON                                                      |
-      | URL                          | https://paymentsapp.altapayplatform.com/api/order         |
-      | Webhook API version          | 2024-04                                                   |
+      | Field                        | Value                                                        |
+      |------------------------------|--------------------------------------------------------------|
+      | Event                        | Order creation                                               |
+      | Format                       | JSON                                                         |
+      | URL                          | URL for each app type in mentioned [below](#webhook-urls)    |
+      | Webhook API version          | 2024-04                                                      |
+
+      #### Webhook URLs
+
+      | App                          | URL                                                            |
+      |------------------------------|----------------------------------------------------------------|
+      | Multiple Payment Options     | https://paymentsapp.altapayplatform.com/api/order              |
+      | Card Payments                | https://cc.paymentsapp.altapayplatform.com/api/order           |
+      | MobilePay                    | https://mobilepay.paymentsapp.altapayplatform.com/api/order    |
+      | Vipps                        | https://vipps.paymentsapp.altapayplatform.com/api/order        |
+      | Klarna                       | https://klarna.paymentsapp.altapayplatform.com/api/order       |
+      | iDEAL                        | https://paymentsapp.altapayplatform.com/api/order              |
+      | ViaBill                      | https://viabill.paymentsapp.altapayplatform.com/api/order      |
+      | Swish                        | https://swish.paymentsapp.altapayplatform.com/api/order        |
+      | Bancontact                   | https://bancontact.paymentsapp.altapayplatform.com/api/order   |
+      | Bank Payments                | https://bankpayment.paymentsapp.altapayplatform.com/api/order  |
+      | Payconiq                     | https://payconiq.paymentsapp.altapayplatform.com/api/order     |
+      | Twint                        | https://twint.paymentsapp.altapayplatform.com/api/order        |
+      | Sepa                         | https://sepa.paymentsapp.altapayplatform.com/api/order         |
+      | Trustly                      | https://trustly.paymentsapp.altapayplatform.com/api/order      |
+      | Przelewy24                   | https://p24.paymentsapp.altapayplatform.com/api/order          |
 
     ![order_creation_webhook](/Docs/configuration/order_creation_webhook.png)
 
