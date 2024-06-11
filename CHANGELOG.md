@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.8]
+
+- Add option to update reconciliation identifier.
+- Reject the payment on shopify order when app receives payment fail status after open status
+
 ## [app-1.3.7]
 
 - Fix: When resolving payments on mobile devices, open the browser that the user used during initialization in case of a browser mismatch.
