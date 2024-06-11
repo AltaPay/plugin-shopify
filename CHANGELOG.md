@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 ## [app-1.3.8]
 
 - Add option to update reconciliation identifier.
+- Reject the payment on shopify order when app receives payment fail status after open status
 
 ## [app-1.3.7]
 
