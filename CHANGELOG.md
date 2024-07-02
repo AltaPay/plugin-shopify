@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.3.9]
+
+- Add option to set unique reconciliation identifier.
+
 ## [app-1.3.8]
 
 - Add option to update reconciliation identifier.
