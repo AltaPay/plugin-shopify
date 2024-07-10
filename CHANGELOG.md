@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.4.0]
+
+- Add the payment method logo at the bottom of the payment form.
+
 ## [app-1.3.9]
 
 - Add option to set unique reconciliation identifier.
