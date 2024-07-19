@@ -500,11 +500,18 @@ By default, you will see the AltaPay logo on the banner of the payment pages. Fo
 4. Click on **Manage** from **More actions** dropdown.
 5. This will redirect you to **AltaPay Payments App** configuration page.
 6. Select **Settings** at the top of the window.
-7. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
-8. Search for `/img/logo-altapay.png` and replace it with your own logo URL.
+7. Scroll down to the **Payment page logo** section.
+8. Click on the **Add file** button or drag to the upload area.
+9. Click **Save**
+    ![upload_logo](/Docs/configuration/upload_logo.png)
+
+Alternatively, you can change the logo by modifying the HTML code in the **Payment Pages Styling** section for that.
+
+1. Scroll down to the **Payment pages styling** section, where you will find the code for the <b>Select Payment Method</b> page, followed by the <b>Payment Form page</b>.
+2. Search for `/img/logo-altapay.png` and replace it with your own logo URL.
 
     ![change_default_logo](/Docs/configuration/change_default_logo.png)
-9. Click **Save**
+3. Click **Save**
 
 ### Enable Credit Card Form by Default on Checkout
 
