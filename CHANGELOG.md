@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.4.2]
+
+- Fix Klarna form issue.
+
 ## [app-1.4.1]
 
 - Add option to change the payment pages logo easily by uploading the custom logo from app settings.
