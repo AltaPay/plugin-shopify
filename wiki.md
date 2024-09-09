@@ -424,9 +424,9 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
 
 
     > **Note**
-    > There is a chance that a webhook might be delayed or missed, and due to this, some order reconciliation identifiers might not update.  
+    > There is a chance that a webhook might be delayed or missed, and due to this, some order reconciliation identifiers might not update according to app configurations. 
     > To overcome this issue, you can register additional webhooks.  
-    > To do so, create an additional webhook for each URL and select the event type as `Order update`.  
+    > To do so, create an additional webhook for each app URL and select the event type as `Order update`.  
     > All other information will remain the same as the `Order creation` webhook.
     >
     > ![Order Update Webhook](/Docs/configuration/order_update_webhook.png)
