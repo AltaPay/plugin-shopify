@@ -385,11 +385,11 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
 1. Navigate to the **Admin** page, using the URL.
 2. Select **Settings** > **Notifications**.
 3. Scroll down to the **Webhooks** section.
-3. Click **Create webhook** button
+4. Click **Create webhook** button
 
     ![create_webhook](/Docs/configuration/create_webhook.png)
 
-4. Enter the information as below:
+5. Enter the information as below:
 
       | Field                        | Value                                                        |
       |------------------------------|--------------------------------------------------------------|
@@ -422,6 +422,14 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
 
 5. Click **Save**
 
+
+    > **Note**
+    > There is a chance that a webhook might be delayed or missed, and due to this, some order reconciliation identifiers might not update according to app configurations. 
+    > To overcome this issue, you can register additional webhooks.  
+    > To do so, create an additional webhook for each app URL and select the event type as `Order update`.  
+    > All other information will remain the same as the `Order creation` webhook.
+    >
+    > ![Order Update Webhook](/Docs/configuration/order_update_webhook.png)
 
 #### Enable Reconciliation Identifier Settings
 Once the Order creation webhook is created, follow the steps below to enable the setting to use the Shopify Order ID as the Reconciliation Identifier:
