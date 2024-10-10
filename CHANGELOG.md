@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.4.4]
+
+- Fix auto capture for Klarna
+ 
 ## [app-1.4.3]
 
 - Simplify styling of the redirect page
