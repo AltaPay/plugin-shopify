@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.4.5]
+
+- Re-style the browser mismatch page to make it consistent with the checkout flow.
+- Display the merchant's logo on the browser mismatch page.
+- Provid an option for merchants to customize the browser mismatch page style.
+- Fix: Payment is marked as captured in Shopify even though it's not captured successfully on the gateway.
+
 ## [app-1.4.4]
 
 - Fix auto capture for Klarna
