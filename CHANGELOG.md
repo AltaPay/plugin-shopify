@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.4.6]
+
+- Mark the payment as captured if it has already been captured in the gateway.
+
 ## [app-1.4.5]
 
 - Re-style the browser mismatch page to make it consistent with the checkout flow.
