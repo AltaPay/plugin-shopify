@@ -42,6 +42,9 @@
     * #### Card Payments
         https://apps.shopify.com/altapay-cc
 
+    * ### Embedded Card
+        https://apps.shopify.com/altapay-embedded-card
+
     * #### MobilePay
         https://apps.shopify.com/altapay-mobilepay
 
