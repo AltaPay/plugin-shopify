@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [app-1.5.0]
+## [app-1.5.1]
 
 - Add support for Embedded Card app.
 
