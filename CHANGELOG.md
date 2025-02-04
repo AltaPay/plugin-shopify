@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.1]
+
+- Add support for Embedded Card app.
+
 ## [app-1.4.6]
 
 - Mark the payment as captured if it has already been captured in the gateway.
