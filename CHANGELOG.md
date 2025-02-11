@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.2]
+
+- Fix: GDPR webhooks are not working for individual apps.
+
 ## [app-1.5.1]
 
 - Add support for Embedded Card app.
