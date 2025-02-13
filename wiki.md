@@ -31,7 +31,6 @@ Installing these apps will enable the web shop to handle payments through AltaPa
  - [Installation Links](#installation-links)
   
     * [App with Multiple Payment Options](#app-with-multiple-payment-options)
-
     * [Individual Apps](#individual-apps)
       * [Card Payments](#card-payments)
       * [Embedded Card](#embedded-card)
