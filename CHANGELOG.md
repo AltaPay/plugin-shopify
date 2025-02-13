@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.2]
+
+- Fix an authentication issue impacting webhooks.
+- Add Installation URL for `Embedded Card` in the wiki.
+
 ## [app-1.5.1]
 
 - Add support for Embedded Card app.

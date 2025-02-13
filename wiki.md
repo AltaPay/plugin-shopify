@@ -31,20 +31,23 @@ Installing these apps will enable the web shop to handle payments through AltaPa
  - [Installation Links](#installation-links)
   
     * [App with Multiple Payment Options](#app-with-multiple-payment-options)
-    * [Individual app for Card Payments](#individual-app-for-card-payments)
-    * [Individual app for MobilePay](#individual-app-for-mobilepay)
-    * [Individual app for Vipps](#individual-app-for-vipps)
-    * [Individual app for Klarna](#individual-app-for-klarna)
-    * [Individual app for iDEAL](#individual-app-for-ideal)
-    * [Individual app for ViaBill](#individual-app-for-viabill)
-    * [Individual app for Swish](#individual-app-for-swish)
-    * [Individual app for Bancontact](#individual-app-for-bancontact)
-    * [Individual app for Bank Payments](#individual-app-for-bank-payments)
-    * [Individual app for Payconiq](#individual-app-for-payconiq)
-    * [Individual app for Twint](#individual-app-for-twint)
-    * [Individual app for Sepa](#individual-app-for-sepa)
-    * [Individual app for Trustly](#individual-app-for-trustly)
-    * [Individual app for Przelewy24](#individual-app-for-przelewy24)
+
+    * [Individual Apps](#individual-apps)
+      * [Card Payments](#card-payments)
+      * [Embedded Card](#embedded-card)
+      * [MobilePay](#mobilepay)
+      * [Vipps](#vipps)
+      * [Klarna](#klarna)
+      * [iDEAL](#ideal)
+      * [ViaBill](#viabill)
+      * [Swish](#swish)
+      * [Bancontact](#bancontact)
+      * [Bank Payments](#bank-payments)
+      * [Payconiq](#payconiq)
+      * [Twint](#twint)
+      * [Sepa](#sepa)
+      * [Trustly](#trustly)
+      * [Przelewy24](#przelewy24)
 
  - [Configuration](#configuration) 
   
@@ -130,89 +133,96 @@ You can install the apps directly using the below respective installation links:
   https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
   ```
 
-* ### Individual app for Card Payments
+* ### Individual Apps
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F25133057
-  ```
+  * #### Card Payments
 
-* ### Individual app for MobilePay
+    ```
+    https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F25133057
+    
+  * #### Embedded Card
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F20381697
-  ```
+    ```
+    https://accounts.shopify.com/store-login?no_redirect=true&redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F71008257
+    ```
 
-* ### Individual app for Vipps
+  * #### MobilePay
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F25657345
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F20381697
+    ```
 
-* ### Individual app for Klarna
+  * #### Vipps
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F20807681
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F25657345
+    ```
 
-* ### Individual app for iDEAL
+  * #### Klarna
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F29229057
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F20807681
+    ```
 
-* ### Individual app for ViaBill
+  * #### iDEAL
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30998529
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F29229057
+    ```
 
-* ### Individual app for Swish
+  * #### ViaBill
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F28016641
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30998529
+    ```
 
-* ### Individual app for Bancontact
+  * #### Swish
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F41353217
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F28016641
+    ```
 
-* ### Individual app for Bank Payments
+  * #### Bancontact
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F45875201
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F41353217
+    ```
 
-* ### Individual app for Payconiq
+  * #### Bank Payments
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F51838977
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F45875201
+    ```
 
-* ### Individual app for Twint
+  * #### Payconiq
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F53936129
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F51838977
+    ```
 
-* ### Individual app for Sepa
+  * #### Twint
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F54525953
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F53936129
+    ```
 
-* ### Individual app for Trustly
+  * #### Sepa
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F55050241
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F54525953
+    ```
 
-* ### Individual app for Przelewy24
+  * #### Trustly
 
-  ```
-  https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30507009
-  ```
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F55050241
+    ```
+
+  * #### Przelewy24
+
+    ```
+    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30507009
+    ```
 
 ## Configuration
 
