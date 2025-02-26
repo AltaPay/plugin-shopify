@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.3]
+
+Fix: Order error in the Embedded Card app due to duplicate payment attempts during the 3DS flow.
+
 ## [app-1.5.2]
 
 - Fix an authentication issue impacting webhooks.
