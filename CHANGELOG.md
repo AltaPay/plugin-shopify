@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.5]
+
+- Add support for multiple payment captures for the same order.
+
 ## [app-1.5.3]
 
 Fix: Order error in the Embedded Card app due to duplicate payment attempts during the 3DS flow.
