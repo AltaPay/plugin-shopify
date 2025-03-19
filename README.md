@@ -8,7 +8,7 @@
 | Reservation               | &check;       |
 | Capture                   | &check;       |
 | Instant Capture           | &check;       |
-| Multi Capture             | &cross;       |
+| Multi Capture             | &check;       |
 | Recurring / Unscheduled   | &cross;       |
 | Release                   | &check;       |
 | Refund                    | &check;       |
