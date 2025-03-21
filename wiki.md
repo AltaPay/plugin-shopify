@@ -389,6 +389,10 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
 
 By default, the Shopify payment ID is used as the reconciliation identifier on AltaPay. If you want to use the Shopify order ID as the reconciliation identifier, please follow the steps below.
 
+> **Note**
+>
+> This option is supported by all apps except the `Embedded Card` app. If you want to set Unique ID as the reconciliation identifier, please follow section [Set Unique ID as reconciliation identifier](#set-unique-id-as-reconciliation-identifier)
+
 #### Create Order creation webhook
 
 1. Navigate to the **Admin** page, using the URL.
@@ -440,21 +444,21 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
     >
     > ![Order Update Webhook](/Docs/configuration/order_update_webhook.png)
 
-#### Enable Reconciliation Identifier Settings
-Once the Order creation webhook is created, follow the steps below to enable the setting to use the Shopify Order ID as the Reconciliation Identifier:
+    #### Enable Reconciliation Identifier Settings
+    Once the Order creation webhook is created, follow the steps below to enable the setting to use the Shopify Order ID as the Reconciliation Identifier:
 
-1. Navigate to the **Admin** page using the URL.
-2. Select **Settings** and then **Payments**.
-3. Scroll down to **Additional payment methods** and click AltaPay payment method.
-4. Click on **Manage** from **More actions** dropdown.
-5. This will redirect you to **AltaPay Payments App** configuration page.
-6. Select **Settings** at the top of the window.
-7. Scroll down to **Advanced Settings** in **Reconciliation Identifier Settings** section.
-8. Set the option from **Set Shopify Order ID as Reconciliation Identifier?** dropdown to **Yes**
-9. Enable **Update reconciliation identifier including prefix or suffix?** option, if you want to include prefix or suffix.
-10. Enter **Webhooks secret**. You can copy this value by navigating to **Settings** > **Notifications** > **Webhooks** and copying the value where it says "Your webhooks will be signed with".
+    1. Navigate to the **Admin** page using the URL.
+    2. Select **Settings** and then **Payments**.
+    3. Scroll down to **Additional payment methods** and click AltaPay payment method.
+    4. Click on **Manage** from **More actions** dropdown.
+    5. This will redirect you to **AltaPay Payments App** configuration page.
+    6. Select **Settings** at the top of the window.
+    7. Scroll down to **Advanced Settings** in **Reconciliation Identifier Settings** section.
+    8. Set the option from **Set Shopify Order ID as Reconciliation Identifier?** dropdown to **Yes**
+    9. Enable **Update reconciliation identifier including prefix or suffix?** option, if you want to include prefix or suffix.
+    10. Enter **Webhooks secret**. You can copy this value by navigating to **Settings** > **Notifications** > **Webhooks** and copying the value where it says "Your webhooks will be signed with".
 
-    ![recon_settings](/Docs/configuration/recon_settings.png)
+        ![recon_settings](/Docs/configuration/recon_settings.png)
 
 ## Styling 
 
