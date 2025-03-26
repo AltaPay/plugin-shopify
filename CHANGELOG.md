@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.7]
+
+- Set default authorization expiry period to 30 days.
+
 ## [app-1.5.5]
 
 - Add support for multiple payment captures for the same order.
