@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.8]
+
+- Fix: Shopify Order ID missing in funding files for some transactions.
+
 ## [app-1.5.7]
 
 - Set default authorization expiry period to 30 days.
