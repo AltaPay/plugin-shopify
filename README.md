@@ -34,7 +34,7 @@
 
 ## Shopify App Store links
 
-* ### App with Mutiple Payment Options
+* ### App with Multiple Payment Options
     https://apps.shopify.com/altapay-payments-app
 
 * ### Individual apps
