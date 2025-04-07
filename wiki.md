@@ -468,7 +468,7 @@ To create a new API user in your AltaPay account, please follow these steps:
 - Log in to your AltaPay account.
 - From the left menu, navigate to **Settings** > **API Keys**.
 
-    ![api_key](docs/api_user/api_keys.png)
+    ![api_key](Docs/api_user/api_keys.png)
     
 - Click on the **Create New API Key** button from top right corner.
 - Fill in the required fields:
@@ -477,7 +477,7 @@ To create a new API user in your AltaPay account, please follow these steps:
     - **Password**  
     - **Assign Shops**
     
-    ![api_key](docs/api_user/create_api_key.png)
+    ![api_key](Docs/api_user/create_api_key.png)
 - After entering the details, click **Create**.
 
 The new credentials can now be used as the API Username and API Password in the Gateway Account Configuration section.
