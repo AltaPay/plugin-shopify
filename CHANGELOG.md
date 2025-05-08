@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.5.9]
+
+- Allow non-email usernames for Gateway API username.
+- Allow capture, refund, and cancel operations after the app has been uninstalled and reinstalled.
+
 ## [app-1.5.8]
 
 - Fix: Shopify Order ID missing in funding files for some transactions.
