@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.6.0]
+
+- Provide option to add the `Forbrugsforeningen` logo on the checkout and payment form pages for card apps.
+
 ## [app-1.5.9]
 
 - Allow non-email usernames for Gateway API username.
