@@ -601,6 +601,10 @@ settings.
 
   ![checkout](/Docs/checkout_style/checkout.png)
 
+- Frontend view with `Checkout v2` style
+
+  ![checkout_v2](/Docs/checkout_style/checkout_v2.png)
+
 - Frontend view with `Legacy` style
 
   ![shopify_klarna](/Docs/checkout_style/legacy.png)
