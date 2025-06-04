@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.6.2]
+
+- Add support for Checkout Design v2.
+- Use the phone number from the billing or shipping address when the customer's contact phone is missing.
+- Automatically refund the payment if it is not confirmed by Shopify and auto-capture is enabled for `Embedded Card` app.
+
 ## [app-1.6.0]
 
 - Provide option to add the `Forbrugsforeningen` logo on the checkout and payment form pages for card apps.
