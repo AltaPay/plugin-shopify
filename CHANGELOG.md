@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.6.6]
+
+- Resolve Shopify capture request if the payment has already been captured by the gateway.
+- Fix: Capture/refund operations delayed or stuck for the `Multiple Payment Options` app.
+
 ## [app-1.6.2]
 
 - Add support for Checkout Design v2.
