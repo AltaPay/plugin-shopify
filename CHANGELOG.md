@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.6.7]
+
+Fix: Order was created in the gateway but failed in Shopify due to multiple open tabs using the `Embedded Card` app.
+
 ## [app-1.6.6]
 
 - Resolve Shopify capture request if the payment has already been captured by the gateway.
