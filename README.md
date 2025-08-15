@@ -79,7 +79,7 @@
 * #### Przelewy24
     https://apps.shopify.com/altapay-p24
 
-* ### App with Multiple Payment Options
+* #### App with Multiple Payment Options
     https://apps.shopify.com/altapay-payments-app
     
 ## Installation
