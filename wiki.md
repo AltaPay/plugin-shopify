@@ -29,24 +29,23 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Individual Payment option App](#individual-payment-option-app)
 
  - [Installation Links](#installation-links)
-  
+ 
+    * [Card Payments](#card-payments)
+    * [Embedded Card](#embedded-card)
+    * [MobilePay](#mobilepay)
+    * [Vipps](#vipps)
+    * [Klarna](#klarna)
+    * [iDEAL](#ideal)
+    * [ViaBill](#viabill)
+    * [Swish](#swish)
+    * [Bancontact](#bancontact)
+    * [Bank Payments](#bank-payments)
+    * [Payconiq](#payconiq)
+    * [Twint](#twint)
+    * [Sepa](#sepa)
+    * [Trustly](#trustly)
+    * [Przelewy24](#przelewy24)
     * [App with Multiple Payment Options](#app-with-multiple-payment-options)
-    * [Individual Apps](#individual-apps)
-      * [Card Payments](#card-payments)
-      * [Embedded Card](#embedded-card)
-      * [MobilePay](#mobilepay)
-      * [Vipps](#vipps)
-      * [Klarna](#klarna)
-      * [iDEAL](#ideal)
-      * [ViaBill](#viabill)
-      * [Swish](#swish)
-      * [Bancontact](#bancontact)
-      * [Bank Payments](#bank-payments)
-      * [Payconiq](#payconiq)
-      * [Twint](#twint)
-      * [Sepa](#sepa)
-      * [Trustly](#trustly)
-      * [Przelewy24](#przelewy24)
 
  - [Configuration](#configuration) 
   
@@ -126,14 +125,6 @@ Below are sections that include the sample screenshots of each app type.
 ## Installation Links
 
 You can install the apps directly using the below respective installation links:
-
-* ### App with Multiple Payment Options
-
-  ```
-  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
-  ```
-
-* ### Individual Apps
 
   * #### Card Payments
 
@@ -222,6 +213,12 @@ You can install the apps directly using the below respective installation links:
 
     ```
     https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30507009
+    ```
+
+  * #### App with Multiple Payment Options
+
+    ```
+    https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
     ```
 
 ## Configuration
