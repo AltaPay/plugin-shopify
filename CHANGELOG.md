@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.6.9]
+
+- Set default authorization expiry period to 90 days.
+
 ## [app-1.6.7]
 
 Fix: Order was created in the gateway but failed in Shopify due to multiple open tabs using the `Embedded Card` app.
