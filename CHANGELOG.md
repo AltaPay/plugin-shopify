@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [app-1.6.9]
 
-- Set default authorization expiry period to 90 days.
+- Set default authorization expiry period to 90 days. See [Authorization Expiry and Capture Recommendations](https://github.com/AltaPay/plugin-shopify/wiki#authorization-expiry-and-capture-recommendations) for details.
 
 ## [app-1.6.7]
 
