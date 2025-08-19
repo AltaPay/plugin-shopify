@@ -29,24 +29,23 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Individual Payment option App](#individual-payment-option-app)
 
  - [Installation Links](#installation-links)
-  
+ 
+    * [Card Payments](#card-payments)
+    * [Embedded Card](#embedded-card)
+    * [MobilePay](#mobilepay)
+    * [Vipps](#vipps)
+    * [Klarna](#klarna)
+    * [iDEAL](#ideal)
+    * [ViaBill](#viabill)
+    * [Swish](#swish)
+    * [Bancontact](#bancontact)
+    * [Bank Payments](#bank-payments)
+    * [Payconiq](#payconiq)
+    * [Twint](#twint)
+    * [Sepa](#sepa)
+    * [Trustly](#trustly)
+    * [Przelewy24](#przelewy24)
     * [App with Multiple Payment Options](#app-with-multiple-payment-options)
-    * [Individual Apps](#individual-apps)
-      * [Card Payments](#card-payments)
-      * [Embedded Card](#embedded-card)
-      * [MobilePay](#mobilepay)
-      * [Vipps](#vipps)
-      * [Klarna](#klarna)
-      * [iDEAL](#ideal)
-      * [ViaBill](#viabill)
-      * [Swish](#swish)
-      * [Bancontact](#bancontact)
-      * [Bank Payments](#bank-payments)
-      * [Payconiq](#payconiq)
-      * [Twint](#twint)
-      * [Sepa](#sepa)
-      * [Trustly](#trustly)
-      * [Przelewy24](#przelewy24)
 
  - [Configuration](#configuration) 
   
@@ -74,13 +73,15 @@ Installing these apps will enable the web shop to handle payments through AltaPa
 
  - [Using the AltaPay Payments App for Shopify](#using-the-altapay-payments-app-for-shopify)
 
- - [Viewing Payment Details](#viewing-payment-details)
+   * [Viewing Payment Details](#viewing-payment-details)
 
- - [Switching between production and test environments](#environments)
+   * [Authorization Expiry and Capture Recommendations](#authorization-expiry-and-capture-recommendations)
 
- - [Making a test order](#making-a-test-order)
+   * [Switching between production and test environments](#environments)
+
+   * [Making a test order](#making-a-test-order)
   
- - [Reconcile Orders](#reconcile-orders)
+   * [Reconcile Orders](#reconcile-orders)
 
 ## Prerequisites
 
@@ -126,14 +127,6 @@ Below are sections that include the sample screenshots of each app type.
 ## Installation Links
 
 You can install the apps directly using the below respective installation links:
-
-* ### App with Multiple Payment Options
-
-  ```
-  https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
-  ```
-
-* ### Individual Apps
 
   * #### Card Payments
 
@@ -222,6 +215,12 @@ You can install the apps directly using the below respective installation links:
 
     ```
     https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F30507009
+    ```
+
+  * #### App with Multiple Payment Options
+
+    ```
+    https://accounts.shopify.com/store-login?redirect=settings%2Fpayments%2Falternative-providers%2F1059191
     ```
 
 ## Configuration
@@ -410,7 +409,7 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
       | Event                        | Order creation                                               |
       | Format                       | JSON                                                         |
       | URL                          | URL for each app type in mentioned [below](#webhook-urls)    |
-      | Webhook API version          | 2024-04                                                      |
+      | Webhook API version          | 2025-07                                                      |
 
       #### Webhook URLs
 
@@ -637,7 +636,10 @@ You can view details on payments in the Shopify app, including payment method, f
 5. Click on **Information from the gateway** to see the gateway Order ID.
 6. Copy the payment ID and search the order on the gateway side.
 
-## Environments
+### Authorization Expiry and Capture Recommendations
+By default, we set the authorization expiry to 90 days per order so that Shopify does not automatically mark it as expired and continues to allow capture requests. However, with most acquirers, authorizations are typically valid for only 30 days. Captures attempted after this period may still succeed, but they are not guaranteed.
+
+### Environments
 
 **Switching between production and test environments**
 
@@ -656,7 +658,7 @@ If you want to test the gateway in the test environment and switch to the produc
     > 
     > Ensure the relevant account is defined in the app, as described in [Configuring the AltaPay Payments App](#configuring-the-altapay-payments-app).
 
-## Making a test order
+### Making a test order
 
 In order to place an order and pay with the AltaPay Omni-Channel test gateway, you should first ensure the test environment is properly set up:
 
@@ -684,7 +686,7 @@ In order to place an order and pay with the AltaPay Omni-Channel test gateway, y
   > The payment can be released, captured and/or refunded as well.
 
 
-## Reconcile Orders
+### Reconcile Orders
 In order to reconcile payments on AltaPay please follow the steps below:
 
 1. Navigate to the **Admin** page, using the URL.
