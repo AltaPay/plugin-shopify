@@ -420,7 +420,7 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
       | MobilePay                    | https://mobilepay.paymentsapp.altapayplatform.com/api/order    |
       | Vipps                        | https://vipps.paymentsapp.altapayplatform.com/api/order        |
       | Klarna                       | https://klarna.paymentsapp.altapayplatform.com/api/order       |
-      | iDEAL                        | https://paymentsapp.altapayplatform.com/api/order              |
+      | iDEAL                        | https://ideal.paymentsapp.altapayplatform.com/api/order              |
       | ViaBill                      | https://viabill.paymentsapp.altapayplatform.com/api/order      |
       | Swish                        | https://swish.paymentsapp.altapayplatform.com/api/order        |
       | Bancontact                   | https://bancontact.paymentsapp.altapayplatform.com/api/order   |
