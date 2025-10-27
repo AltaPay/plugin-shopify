@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.7.2]
+
+- Merchants can now easily change the [Checkout form styling](https://github.com/AltaPay/plugin-shopify/wiki#checkout-form-styling) from the Checkout Page Settings section in the app settings, without requiring any changes on the gateway side.
+
 ## [app-1.6.9]
 
 - Set default authorization expiry period to 90 days. See [Authorization Expiry and Capture Recommendations](https://github.com/AltaPay/plugin-shopify/wiki#authorization-expiry-and-capture-recommendations) for details.
