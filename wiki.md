@@ -186,8 +186,13 @@ You can install the apps directly using the below respective installation links:
     ```
     https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F45875201
     ```
-
   * #### Payconiq
+
+    > **Deprecation Notice:**  
+    > Payconiq will be **decommissioned on 4 Dec 2025**.
+    > Please ensure that Payconiq is removed from your checkout integrations by this date.
+    > Any payments initiated by consumers after this date will automatically fail.  
+    > Please contact **AltaPay Support** for more details.
 
     ```
     https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F51838977
