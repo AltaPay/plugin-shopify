@@ -465,6 +465,29 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
 
         ![recon_settings](/Docs/configuration/recon_settings.png)
 
+### Failed Payment Action
+  
+The **Failed payment action** configuration defines where the customer is redirected when a payment fails. It can be set to either redirect customers to the Shopify checkout page or keep them on the app page and display an error message (default).
+
+When customers are redirected to the checkout page and retry the payment, a new order is created with a new payment ID. This option is useful for payment methods that do not allow creating an order with the same payment or order ID.
+
+To update the setting navigate to
+
+1. Navigate to the **Admin** page using the URL.
+2. Select **Settings** and then **Payments**.
+3. Scroll down to **Additional payment methods** and click on the payment method.
+4. Click on **Manage** from **More actions** dropdown.
+5. This will redirect you to **AltaPay Payments App** configuration page.
+6. Select **Settings** at the top of the window.
+7. Scroll down to **Failed payment action** section and click on **Activate** button to enable the option.
+9. Click **Save**
+
+    ![failed_payment_action](Docs/configuration/failed_payment_action.png)
+
+    > Note:
+    > Enabling **Redirect to Shopify checkout page** will cause the app to reject the current payment upon receiving the failure callback and redirect the customer to the Shopify checkout page, where they can retry the payment using the same or a different payment method.
+    The rejected order will not be restored.
+
 ## Creating a New API User
 
 To create a new API user in your AltaPay account, please follow these steps:
