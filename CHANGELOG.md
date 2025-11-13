@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [app-1.7.4]
 
-- Add configuration to set the redirect behavior on payment failure, either to the Shopify checkout page or the app page.
+- Redirect to the checkout page in case of an error to generate a new order ID, allowing the customer to retry the transaction with Vipps.
 
 ## [app-1.7.2]
 
