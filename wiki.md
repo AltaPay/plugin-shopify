@@ -465,7 +465,6 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
 
         ![recon_settings](/Docs/configuration/recon_settings.png)
 
-
 ## Creating a New API User
 
 To create a new API user in your AltaPay account, please follow these steps:
