@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.7.4]
+
+- Redirect to the checkout page in case of an error to generate a new order ID, allowing the customer to retry the transaction with Vipps.
+
 ## [app-1.7.2]
 
 - Merchants can now easily change the [Checkout form styling](https://github.com/AltaPay/plugin-shopify/wiki#checkout-form-styling) from the Checkout Page Settings section in the app settings, without requiring any changes on the gateway side.
