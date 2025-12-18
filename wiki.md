@@ -642,7 +642,7 @@ You can view details on payments in the Shopify app, including payment method, f
 6. Copy the payment ID and search the order on the gateway side.
 
 ### Authorization Expiry and Capture Recommendations
-By default, we set the authorization expiry to 90 days per order so that Shopify does not automatically mark it as expired and continues to allow capture requests. However, with most acquirers, authorizations are typically valid for only 30 days. Captures attempted after this period may still succeed, but they are not guaranteed.
+By default, we set the authorization expiry to 180 days per order so that Shopify does not automatically mark it as expired and continues to allow capture requests. However, with most acquirers, authorizations are typically valid for only 30 days. Captures attempted after this period may still succeed, but they are not guaranteed.
 
 ### Environments
 
