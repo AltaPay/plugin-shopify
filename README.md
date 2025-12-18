@@ -64,16 +64,6 @@
 * #### Bank Payments
     https://apps.shopify.com/altapay-bank-payments
 
-* #### Payconiq
-
-    > **Deprecation Notice:**  
-    > Payconiq will be **decommissioned on 4 Dec 2025**.
-    > Please ensure that Payconiq is removed from your checkout integrations by this date.
-    > Any payments initiated by consumers after this date will automatically fail.  
-    > Please contact **AltaPay Support** for more details.
-
-    https://apps.shopify.com/altapay-payconiq
-
 * #### Twint
     https://apps.shopify.com/altapay-twint
 
