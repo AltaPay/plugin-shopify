@@ -40,7 +40,6 @@ Installing these apps will enable the web shop to handle payments through AltaPa
     * [Swish](#swish)
     * [Bancontact](#bancontact)
     * [Bank Payments](#bank-payments)
-    * [Payconiq](#payconiq)
     * [Twint](#twint)
     * [Sepa](#sepa)
     * [Trustly](#trustly)
@@ -185,17 +184,6 @@ You can install the apps directly using the below respective installation links:
 
     ```
     https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F45875201
-    ```
-  * #### Payconiq
-
-    > **Deprecation Notice:**  
-    > Payconiq will be **decommissioned on 4 Dec 2025**.
-    > Please ensure that Payconiq is removed from your checkout integrations by this date.
-    > Any payments initiated by consumers after this date will automatically fail.  
-    > Please contact **AltaPay Support** for more details.
-
-    ```
-    https://accounts.shopify.com/store-login?redirect=%2Fadmin%2Fsettings%2Fpayments%2Falternative-providers%2F51838977
     ```
 
   * #### Twint
@@ -425,12 +413,11 @@ By default, the Shopify payment ID is used as the reconciliation identifier on A
       | MobilePay                    | https://mobilepay.paymentsapp.altapayplatform.com/api/order    |
       | Vipps                        | https://vipps.paymentsapp.altapayplatform.com/api/order        |
       | Klarna                       | https://klarna.paymentsapp.altapayplatform.com/api/order       |
-      | iDEAL                        | https://ideal.paymentsapp.altapayplatform.com/api/order              |
+      | iDEAL                        | https://ideal.paymentsapp.altapayplatform.com/api/order        |
       | ViaBill                      | https://viabill.paymentsapp.altapayplatform.com/api/order      |
       | Swish                        | https://swish.paymentsapp.altapayplatform.com/api/order        |
       | Bancontact                   | https://bancontact.paymentsapp.altapayplatform.com/api/order   |
       | Bank Payments                | https://bankpayment.paymentsapp.altapayplatform.com/api/order  |
-      | Payconiq                     | https://payconiq.paymentsapp.altapayplatform.com/api/order     |
       | Twint                        | https://twint.paymentsapp.altapayplatform.com/api/order        |
       | Sepa                         | https://sepa.paymentsapp.altapayplatform.com/api/order         |
       | Trustly                      | https://trustly.paymentsapp.altapayplatform.com/api/order      |
@@ -642,7 +629,7 @@ You can view details on payments in the Shopify app, including payment method, f
 6. Copy the payment ID and search the order on the gateway side.
 
 ### Authorization Expiry and Capture Recommendations
-By default, we set the authorization expiry to 90 days per order so that Shopify does not automatically mark it as expired and continues to allow capture requests. However, with most acquirers, authorizations are typically valid for only 30 days. Captures attempted after this period may still succeed, but they are not guaranteed.
+By default, we set the authorization expiry to 180 days per order so that Shopify does not automatically mark it as expired and continues to allow capture requests. However, with most acquirers, authorizations are typically valid for only 30 days. Captures attempted after this period may still succeed, but they are not guaranteed.
 
 ### Environments
 
