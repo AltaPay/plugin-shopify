@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.7.9]
+
+- Add support for MarketPay payment methods.
+
 ## [app-1.7.6]
 
 - Set default authorization expiry period to 180 days. See [Authorization Expiry and Capture Recommendations](https://github.com/AltaPay/plugin-shopify/wiki#authorization-expiry-and-capture-recommendations) for details.
