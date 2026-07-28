@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 - Fix: Klarna — For auto-capture payments, mark the payment as pending initially, then update it to paid once the capture succeeds.
 - Fix: Mark payments as expired when the payment gateway reports that an open payment has been cancelled.
 
+## [app-1.7.9]
+
+- Add support for MarketPay payment methods.
+
 ## [app-1.7.6]
 
 - Set default authorization expiry period to 180 days. See [Authorization Expiry and Capture Recommendations](https://github.com/AltaPay/plugin-shopify/wiki#authorization-expiry-and-capture-recommendations) for details.
