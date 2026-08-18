@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.8.1]
+
+- Fix the duplicate payments issue with the Embedded Card app.
+
 ## [app-1.8.0]
 
 - Fix: Klarna — For auto-capture payments, mark the payment as pending initially, then update it to paid once the capture succeeds.
