@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [app-1.8.4]
+
+- Fix an issue where low-stock items can cause duplicate payments.
+
 ## [app-1.8.1]
 
 - Fix the duplicate payments issue with the Embedded Card app.
