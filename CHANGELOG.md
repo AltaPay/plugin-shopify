@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [app-1.8.4]
+## [app-1.8.5]
 
 - Fix an issue where low-stock items can cause duplicate payments.
 
